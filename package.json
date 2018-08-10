@@ -1,12 +1,12 @@
 {
-  "name": "presentation-controller",
+  "name": "presentation-view",
   "version": "2.5.2",
-  "description": "The Augmented.js Next - Presentation Controller Module.",
-  "main": "dist/presentation-controller.js",
+  "description": "The Augmented.js Next - Presentation View Module.",
+  "main": "dist/presentation-view.js",
   "scripts": {
     "dev": "webpack --mode development --module-bind js=babel-loader --progress",
     "build": "webpack --mode production --module-bind js=babel-loader --progress",
-    "lint": "eslint ./src/presentation-controller.js",
+    "lint": "eslint ./src/presentation-view.js",
     "test": "mocha --require babel-core/register --require test/helper.js -c test/*Spec.js",
     "start": "node index.js",
     "docs": "rm -rf jsdoc && jsdoc ./src -r -d ./jsdoc/ -R ./README.md -t ./node_modules/foodoc/template -c ./jsdoc.conf.json -P ./package.json",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Augmentedjs/presentation-controller.git"
+    "url": "git+https://github.com/Augmentedjs/presentation-view.git"
   },
   "keywords": [
     "augmentedjs",
@@ -47,7 +47,7 @@
     "lodash.bind": "^4.2.1"
   },
   "bugs": {
-    "url": "https://github.com/Augmentedjs/presentation-controller/issues"
+    "url": "https://github.com/Augmentedjs/presentation-view/issues"
   },
   "homepage": "http://www.augmentedjs.com"
 }
