@@ -11,6 +11,7 @@ const DELEGATE_EVENT_SPLITTER = /^(\S+)\s*(.*)$/;
 class AbstractView extends Augmented.Object {
   constructor(options) {
     super(options);
+    //console.debug(`options on AbstractView ${JSON.stringify(options)}`);
     if (options && options.name) {
       this._name = options.name;
     } else {
@@ -72,9 +73,12 @@ class AbstractView extends Augmented.Object {
     }
 
     this.cid = Augmented.Utility.uniqueId("view");
-    //Augmented.Utility.extend(this, _pick(options, VIEW_OPTIONS));
 
-    this._ensureElement();
+    if (options && options.noEL) {
+      // This is for Mediator
+    } else {
+      this._ensureElement();
+    }
 
     /*this.render = Augmented.Utility.wrap(this.render, (render) => {
       this.beforeRender();
@@ -311,11 +315,11 @@ class AbstractView extends Augmented.Object {
   };
 
   // Ensure that the View has a DOM element to render into.
-  // If `this.el` is a string, pass it through `$()`, take the first
+  // If `this.el` is a string, pass it through querySelector, take the first
   // matching element, and re-assign it to `el`. Otherwise, create
   // an element from the `id`, `style` and `tagName` properties.
   _ensureElement() {
-    if (!this.el) {
+    if (!this._el) {
       const attrs = Augmented.Utility.extend({}, Augmented.result(this, "attributes"));
       if (this.id) {
         attrs.id = this.id;
@@ -326,6 +330,7 @@ class AbstractView extends Augmented.Object {
       const el = this._createElement(this.tagName);
       const body = document.querySelector("body");
       if (body) {
+        //console.debug("creating element " + this.tagName + " on body.")
         body.appendChild(el);
       }
       if (el) {
@@ -400,7 +405,7 @@ class AbstractView extends Augmented.Object {
   /**
   * Sets the permissions to the view
   * @param {array} permissions The permissions to set
-  * @param {boolean} negative Flag to set a nagative permission (optional)
+  * @param {boolean} negative Flag to set a negative permission (optional)
   */
   set permissions(permissions) {
     /*if (!negative) {

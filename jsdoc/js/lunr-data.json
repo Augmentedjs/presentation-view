@@ -301,9 +301,32 @@
           "function",
           "permiss",
           "view"
+        ],
+        "View.html": [
+          "base",
+          "class",
+          "concept",
+          "display",
+          "handlng",
+          "mv",
+          "view"
+        ],
+        "View.html#render": [
+          "callback",
+          "function",
+          "render",
+          "view",
+          "view#rend"
+        ],
+        "View.html#remove": [
+          "bind",
+          "function",
+          "remov",
+          "view",
+          "view#remov"
         ]
       },
-      "length": 22
+      "length": 25
     },
     "tokenStore": {
       "root": {
@@ -1189,6 +1212,10 @@
                         "AbstractView.html#canDisplay": {
                           "ref": "AbstractView.html#canDisplay",
                           "tf": 12.5
+                        },
+                        "View.html": {
+                          "ref": "View.html",
+                          "tf": 7.142857142857142
                         }
                       }
                     }
@@ -1559,6 +1586,10 @@
                       "AbstractView.html#afterRender": {
                         "ref": "AbstractView.html#afterRender",
                         "tf": 16.666666666666664
+                      },
+                      "View.html#render": {
+                        "ref": "View.html#render",
+                        "tf": 766.6666666666666
                       }
                     }
                   }
@@ -1582,6 +1613,10 @@
                     "AbstractView.html#removePermission": {
                       "ref": "AbstractView.html#removePermission",
                       "tf": 16.666666666666664
+                    },
+                    "View.html#remove": {
+                      "ref": "View.html#remove",
+                      "tf": 766.6666666666666
                     }
                   },
                   "e": {
@@ -1924,6 +1959,10 @@
                     "AbstractView.html": {
                       "ref": "AbstractView.html",
                       "tf": 110
+                    },
+                    "View.html": {
+                      "ref": "View.html",
+                      "tf": 110
                     }
                   }
                 }
@@ -1989,6 +2028,10 @@
                         "AbstractView.html": {
                           "ref": "AbstractView.html",
                           "tf": 6.25
+                        },
+                        "View.html": {
+                          "ref": "View.html",
+                          "tf": 7.142857142857142
                         }
                       }
                     }
@@ -2045,6 +2088,10 @@
                           "AbstractView.html#canDisplay": {
                             "ref": "AbstractView.html#canDisplay",
                             "tf": 12.5
+                          },
+                          "View.html#render": {
+                            "ref": "View.html#render",
+                            "tf": 16.666666666666664
                           }
                         }
                       }
@@ -2237,6 +2284,10 @@
                   "AbstractView.html": {
                     "ref": "AbstractView.html",
                     "tf": 6.25
+                  },
+                  "View.html": {
+                    "ref": "View.html",
+                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -2288,6 +2339,10 @@
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
                     "tf": 1.1627906976744187
+                  },
+                  "View.html#remove": {
+                    "ref": "View.html#remove",
+                    "tf": 16.666666666666664
                   }
                 }
               }
@@ -2343,6 +2398,10 @@
                         "AbstractView.html": {
                           "ref": "AbstractView.html",
                           "tf": 6.25
+                        },
+                        "View.html": {
+                          "ref": "View.html",
+                          "tf": 7.142857142857142
                         }
                       }
                     }
@@ -2384,6 +2443,10 @@
               "AbstractView.html": {
                 "ref": "AbstractView.html",
                 "tf": 6.25
+              },
+              "View.html": {
+                "ref": "View.html",
+                "tf": 7.142857142857142
               }
             }
           },
@@ -2586,6 +2649,18 @@
                   "AbstractView.html#clearPermissions": {
                     "ref": "AbstractView.html#clearPermissions",
                     "tf": 16.666666666666664
+                  },
+                  "View.html": {
+                    "ref": "View.html",
+                    "tf": 1914.2857142857142
+                  },
+                  "View.html#render": {
+                    "ref": "View.html#render",
+                    "tf": 16.666666666666664
+                  },
+                  "View.html#remove": {
+                    "ref": "View.html#remove",
+                    "tf": 16.666666666666664
                   }
                 },
                 "r": {
@@ -2620,6 +2695,40 @@
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
                       "tf": 2.7777777777777777
+                    }
+                  }
+                },
+                "#": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "d": {
+                          "docs": {
+                            "View.html#render": {
+                              "ref": "View.html#render",
+                              "tf": 1150
+                            }
+                          }
+                        }
+                      },
+                      "m": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "v": {
+                            "docs": {
+                              "View.html#remove": {
+                                "ref": "View.html#remove",
+                                "tf": 1150
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -2957,6 +3066,14 @@
                           },
                           "AbstractView.html#clearPermissions": {
                             "ref": "AbstractView.html#clearPermissions",
+                            "tf": 110
+                          },
+                          "View.html#render": {
+                            "ref": "View.html#render",
+                            "tf": 110
+                          },
+                          "View.html#remove": {
+                            "ref": "View.html#remove",
                             "tf": 110
                           }
                         }
@@ -3397,7 +3514,7 @@
           }
         }
       },
-      "length": 229
+      "length": 246
     },
     "corpusTokens": [
       "abstractview",
@@ -3535,6 +3652,8 @@
       "usual",
       "util",
       "view",
+      "view#remov",
+      "view#rend",
       "view'",
       "viewreturn",
       "wish",
@@ -3770,6 +3889,37 @@
       "tags": "AbstractView#clearPermissions clearPermissions",
       "summary": "",
       "description": "Clears the permissions in the view"
+    },
+    "View.html": {
+      "id": "View.html",
+      "kind": "class",
+      "title": "View",
+      "longname": "View",
+      "name": "View",
+      "tags": "View",
+      "summary": "",
+      "description": "View - the base view for handlng display in the MV* Concept",
+      "body": ""
+    },
+    "View.html#render": {
+      "id": "View.html#render",
+      "kind": "function",
+      "title": "render()",
+      "longname": "View#render",
+      "name": "render",
+      "tags": "View#render render",
+      "summary": "",
+      "description": "Render callback for the view"
+    },
+    "View.html#remove": {
+      "id": "View.html#remove",
+      "kind": "function",
+      "title": "remove()",
+      "longname": "View#remove",
+      "name": "remove",
+      "tags": "View#remove remove",
+      "summary": "",
+      "description": "Remove the view and all binds"
     }
   }
 }

@@ -2,8 +2,7 @@ import AbstractView from "./abstractView.js";
 import * as  Augmented from "augmentedjs-next";
 
 /**
- * Aubstract View - the base view for handlng display in the MV* Concept
- * @name View
+ * View - the base view for handlng display in the MV* Concept
  * @extends Presentation.AbstractView
  */
 class View extends AbstractView {
@@ -29,8 +28,7 @@ class View extends AbstractView {
   };
 
   /**
-  * Remove the table and all binds
-  * @memberof View
+  * Remove the view and all binds
   */
   remove() {
     /* off to unbind the events */
