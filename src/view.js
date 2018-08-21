@@ -1,5 +1,5 @@
 import AbstractView from "./abstractView.js";
-import * as  Augmented from "augmentedjs-next";
+import { isString } from "next-core-utilities";
 
 /**
  * View - the base view for handlng display in the MV* Concept
@@ -17,7 +17,7 @@ class View extends AbstractView {
   render() {
     if (this._el && this.template) {
       let el = this._el;
-      if (Augmented.isString(this._el)) {
+      if (isString(this._el)) {
         el = document.querySelector(this._el);
       }
       if (el) {
@@ -37,7 +37,7 @@ class View extends AbstractView {
     this.stopListening();
     if (this._el) {
       let el = this._el;
-      if (Augmented.isString(this._el)) {
+      if (isString(this._el)) {
         el = document.querySelector(this._el);
       }
       if (el) {

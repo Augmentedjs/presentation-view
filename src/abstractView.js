@@ -1,4 +1,5 @@
-import * as Augmented from "augmentedjs-next";
+import { AugmentedObject } from "next-core-object";
+import { uniqueId, isString, result, isFunction, extend } from "next-core-utilities";
 const _bind = require("lodash.bind");
 
 // Cached regex to split keys for `delegate`.
@@ -6,9 +7,9 @@ const DELEGATE_EVENT_SPLITTER = /^(\S+)\s*(.*)$/;
 
 /**
  * Aubstract View - the base view for handlng display in the MV* Concept
- * @extends Augmented.Object
+ * @extends AugmentedObject
  */
-class AbstractView extends Augmented.Object {
+class AbstractView extends AugmentedObject {
   constructor(options) {
     super(options);
     //console.debug(`options on AbstractView ${JSON.stringify(options)}`);
@@ -72,7 +73,7 @@ class AbstractView extends Augmented.Object {
       this.attributes = {};
     }
 
-    this.cid = Augmented.Utility.uniqueId("view");
+    this.cid = uniqueId("view");
 
     if (options && options.noEL) {
       // This is for Mediator
@@ -167,7 +168,7 @@ class AbstractView extends Augmented.Object {
   // manipulation API.
   _removeElement() {
     let el = this._el;
-    if (this._el && Augmented.isString(this._el)) {
+    if (this._el && isString(this._el)) {
       el = document.querySelector(this._el);
     }
     if (el) {
@@ -208,7 +209,7 @@ class AbstractView extends Augmented.Object {
    * }
    */
   delegateEvents(events) {
-    events || (events = Augmented.result(this, "events"));
+    events || (events = result(this, "events"));
     if (!events) {
       return this;
     }
@@ -216,7 +217,7 @@ class AbstractView extends Augmented.Object {
     let key;
     for (key in events) {
       let method = events[key];
-      if (!Augmented.isFunction(method)) {
+      if (!isFunction(method)) {
         method = this[method];
       }
       if (!method) {
@@ -257,7 +258,7 @@ class AbstractView extends Augmented.Object {
     if (this._el) {
       ////console.log("undelegateEvents el", this._el);
       let el = this._el;
-      if (Augmented.isString(this._el)) {
+      if (isString(this._el)) {
         el = document.querySelector(this._el);
       }
       if (el) {
@@ -283,7 +284,7 @@ class AbstractView extends Augmented.Object {
   undelegate(eventName, selector, listener) {
     if (this._el) {
       let el = this._el;
-      if (Augmented.isString(this._el)) {
+      if (isString(this._el)) {
         el = document.querySelector(this._el);
       }
       if (el) {
@@ -320,7 +321,7 @@ class AbstractView extends Augmented.Object {
   // an element from the `id`, `style` and `tagName` properties.
   _ensureElement() {
     if (!this._el) {
-      const attrs = Augmented.Utility.extend({}, Augmented.result(this, "attributes"));
+      const attrs = extend({}, result(this, "attributes"));
       if (this.id) {
         attrs.id = this.id;
       }
@@ -349,7 +350,7 @@ class AbstractView extends Augmented.Object {
     for(key in attributes) {
       if (this._el) {
         let el = this._el;
-        if (Augmented.isString(this._el)) {
+        if (isString(this._el)) {
           el = document.querySelector(this._el);
         }
         if (el) {
