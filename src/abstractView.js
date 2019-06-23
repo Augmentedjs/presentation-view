@@ -107,6 +107,10 @@ class AbstractView extends AugmentedObject {
    * @private
    */
 
+   /**
+    * The element bound
+    * @property el
+    */
    get el() {
      return this._el;
    };
@@ -134,6 +138,7 @@ class AbstractView extends AugmentedObject {
   /**
    * Before Render callback for the view
    * @returns this Context of the view
+   * @deprecated
    */
   beforeRender() {
     return this;
@@ -148,6 +153,7 @@ class AbstractView extends AugmentedObject {
   /**
    * After Render callback for the view
    * @returns this Context of the view
+   * @deprecated
    */
   afterRender() {
     return this;
@@ -361,25 +367,22 @@ class AbstractView extends AugmentedObject {
   };
 
   /**
-  * Sets the name of the view
-  * @param {string} name The name of the view
+  * The name of the view
+  * @property name The name of the view
   */
   set name(name) {
     this._name = name;
   };
-  /**
-  * Gets the name of the view
-  * @returns {string} Returns the name of the view
-  */
+
   get name() {
     return this._name;
   };
 
   /**
-  * Adds a permission to the view
-  * @param {string} permission The permission to add
-  * @param {boolean} negative Flag to set a nagative permission (optional)
-  */
+   * Adds a permission to the view
+   * @param {string} permission The permission to add
+   * @param {boolean} negative Flag to set a nagative permission (optional)
+   */
   addPermission(permission, negative) {
     if (!negative) {
       negative = false;
@@ -390,10 +393,10 @@ class AbstractView extends AugmentedObject {
     }
   };
   /**
-  * Removes a permission to the view
-  * @param {string} permission The permission to remove
-  * @param {boolean} negative Flag to set a nagative permission (optional)
-  */
+   * Removes a permission to the view
+   * @param {string} permission The permission to remove
+   * @param {boolean} negative Flag to set a nagative permission (optional)
+   */
   removePermission(permission, negative) {
     if (!negative) {
       negative = false;
@@ -404,10 +407,10 @@ class AbstractView extends AugmentedObject {
     }
   };
   /**
-  * Sets the permissions to the view
-  * @param {array} permissions The permissions to set
-  * @param {boolean} negative Flag to set a negative permission (optional)
-  */
+   * Sets the permissions to the view
+   * @param {array} permissions The permissions to set
+   * @param {boolean} negative Flag to set a negative permission (optional)
+   */
   set permissions(permissions) {
     /*if (!negative) {
       negative = false;
@@ -424,21 +427,21 @@ class AbstractView extends AugmentedObject {
 
 
   /**
-  * Gets the permissions to the view<br/>
-  * Return format:<br/>
-  * <pre>{
-  *     include: [],
-  *     exclude: []
-  * }</pre>
-  *
-  * @returns {object} The permissions in the view
-  */
+   * The permissions to the view<br/>
+   * Return format:<br/>
+   * <pre>{
+   *     include: [],
+   *     exclude: []
+   * }</pre>
+   *
+   * @property {object} permissions
+   */
   get permissions() {
     return this._permissions;
   };
   /**
-  * Clears the permissions in the view
-  */
+   * Clears the permissions in the view
+   */
   clearPermissions() {
     this._permissions = {
       include: [],
@@ -446,11 +449,11 @@ class AbstractView extends AugmentedObject {
     };
   };
   /**
-  * Matches a permission in the view
-  * @param {string} match The permissions to match
-  * @param {boolean} negative Flag to set a nagative permission (optional)
-  * @returns {boolean} Returns true if the match exists
-  */
+   * Matches a permission in the view
+   * @param {string} match The permissions to match
+   * @param {boolean} negative Flag to set a nagative permission (optional)
+   * @returns {boolean} Returns true if the match exists
+   */
   matchesPermission(match, negative) {
     if (!negative) {
       negative = false;
@@ -459,9 +462,9 @@ class AbstractView extends AugmentedObject {
     return (p.indexOf(match) !== -1);
   };
   /**
-  * Callback to return if this view can display
-  * @returns {boolean} Returns true if this view can display
-  */
+   * Callback to return if this view can display
+   * @returns {boolean} Returns true if this view can display
+   */
   canDisplay() {
     return true;
   };

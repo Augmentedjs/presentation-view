@@ -92,9 +92,15 @@
           "mv",
           "view"
         ],
+        "AbstractView.html#el": [
+          "abstractview#el",
+          "bound",
+          "el",
+          "element",
+          "member"
+        ],
         "AbstractView.html#name": [
           "abstractview#nam",
-          "get",
           "member",
           "name",
           "view"
@@ -103,11 +109,11 @@
           "abstractview#permiss",
           "exclud",
           "format",
-          "get",
           "includ",
           "member",
           "permiss",
-          "viewreturn"
+          "return",
+          "view"
         ],
         "AbstractView.html#init": [
           "abstractview#init",
@@ -157,7 +163,7 @@
         ],
         "AbstractView.html#remove": [
           "abstractview#remov",
-          "anyapplic",
+          "applic",
           "dom",
           "element",
           "event",
@@ -179,34 +185,36 @@
           "properti",
           "re",
           "setel",
-          "theview'",
           "this.el",
           "view'"
         ],
         "AbstractView.html#delegateEvents": [
           "abstractview#delegateev",
-          "analtern",
+          "altern",
           "api",
           "bind",
           "bound",
           "callback",
+          "context",
           "creat",
           "css",
           "deleg",
           "delegateev",
           "dom",
-          "efficiency.omit",
+          "effici",
           "el",
           "element",
           "event",
           "function",
+          "given",
           "hash",
           "html",
-          "jquerycontext",
+          "jqueri",
           "manipul",
-          "ofpair",
+          "omit",
           "overrid",
-          "properly.us",
+          "pair",
+          "properli",
           "properti",
           "refer",
           "requir",
@@ -214,8 +222,6 @@
           "set",
           "string",
           "subclass",
-          "thegiven",
-          "thethis.el",
           "this.$el",
           "this._el",
           "this.el",
@@ -227,14 +233,14 @@
         "AbstractView.html#delegate": [
           "abstractview#deleg",
           "add",
+          "blur",
           "chang",
           "child",
           "deleg",
           "element",
-          "elementus",
           "event",
           "explor",
-          "focus,blur",
+          "focu",
           "function",
           "internet",
           "listen",
@@ -242,6 +248,7 @@
           "selector",
           "singl",
           "submit",
+          "us",
           "view'",
           "work"
         ],
@@ -251,12 +258,12 @@
           "bound",
           "callback",
           "clear",
-          "delegateevents.y",
+          "delegateev",
           "dom",
           "don't",
           "element",
           "function",
-          "multipleview",
+          "multipl",
           "need",
           "previous",
           "same",
@@ -270,13 +277,14 @@
           "abstractview#undeleg",
           "both",
           "deleg",
-          "event.selector",
+          "event",
           "finer",
           "function",
           "grain",
           "listen",
           "option",
           "remov",
+          "selector",
           "singl",
           "undeleg",
           "undelegateev"
@@ -326,7 +334,7 @@
           "view"
         ]
       },
-      "length": 25
+      "length": 26
     },
     "tokenStore": {
       "root": {
@@ -423,6 +431,17 @@
                                 },
                                 "#": {
                                   "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {
+                                        "AbstractView.html#el": {
+                                          "ref": "AbstractView.html#el",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  },
                                   "n": {
                                     "docs": {},
                                     "a": {
@@ -914,65 +933,50 @@
               }
             }
           },
-          "n": {
+          "p": {
             "docs": {},
-            "y": {
+            "p": {
               "docs": {},
-              "a": {
+              "l": {
                 "docs": {},
-                "p": {
+                "i": {
                   "docs": {},
-                  "p": {
-                    "docs": {},
-                    "l": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "c": {
-                          "docs": {
-                            "AbstractView.html#remove": {
-                              "ref": "AbstractView.html#remove",
-                              "tf": 5
-                            }
-                          }
-                        }
+                  "c": {
+                    "docs": {
+                      "AbstractView.html#remove": {
+                        "ref": "AbstractView.html#remove",
+                        "tf": 5
                       }
                     }
                   }
                 }
               }
             },
-            "a": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "t": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "n": {
-                        "docs": {
-                          "AbstractView.html#delegateEvents": {
-                            "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
             "i": {
               "docs": {
                 "AbstractView.html#delegateEvents": {
                   "ref": "AbstractView.html#delegateEvents",
-                  "tf": 1.1627906976744187
+                  "tf": 1.0869565217391304
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractView.html#delegateEvents": {
+                        "ref": "AbstractView.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -983,7 +987,7 @@
               "docs": {
                 "AbstractView.html#delegate": {
                   "ref": "AbstractView.html#delegate",
-                  "tf": 2.7777777777777777
+                  "tf": 2.5
                 },
                 "AbstractView.html#addPermission": {
                   "ref": "AbstractView.html#addPermission",
@@ -1030,7 +1034,7 @@
                     "docs": {
                       "AbstractView.html#undelegateEvents": {
                         "ref": "AbstractView.html#undelegateEvents",
-                        "tf": 3.125
+                        "tf": 2.941176470588235
                       }
                     }
                   }
@@ -1075,15 +1079,15 @@
                     },
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
-                      "tf": 1.1627906976744187
+                      "tf": 1.0869565217391304
                     },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 752.7777777777778
+                      "tf": 752.5
                     },
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
-                      "tf": 5
+                      "tf": 4.545454545454546
                     }
                   },
                   "a": {
@@ -1099,29 +1103,10 @@
                               "AbstractView.html#delegateEvents": {
                                 "ref": "AbstractView.html#delegateEvents",
                                 "tf": 750
-                              }
-                            },
-                            "e": {
-                              "docs": {},
-                              "n": {
-                                "docs": {},
-                                "t": {
-                                  "docs": {},
-                                  "s": {
-                                    "docs": {},
-                                    ".": {
-                                      "docs": {},
-                                      "y": {
-                                        "docs": {
-                                          "AbstractView.html#undelegateEvents": {
-                                            "ref": "AbstractView.html#undelegateEvents",
-                                            "tf": 3.125
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
+                              },
+                              "AbstractView.html#undelegateEvents": {
+                                "ref": "AbstractView.html#undelegateEvents",
+                                "tf": 2.941176470588235
                               }
                             }
                           }
@@ -1170,11 +1155,11 @@
                 },
                 "AbstractView.html#delegateEvents": {
                   "ref": "AbstractView.html#delegateEvents",
-                  "tf": 1.1627906976744187
+                  "tf": 1.0869565217391304
                 },
                 "AbstractView.html#undelegateEvents": {
                   "ref": "AbstractView.html#undelegateEvents",
-                  "tf": 3.125
+                  "tf": 2.941176470588235
                 }
               }
             },
@@ -1186,7 +1171,7 @@
                   "docs": {
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
-                      "tf": 3.125
+                      "tf": 2.941176470588235
                     }
                   }
                 }
@@ -1321,7 +1306,7 @@
                         "docs": {
                           "AbstractView.html#delegate": {
                             "ref": "AbstractView.html#delegate",
-                            "tf": 2.7777777777777777
+                            "tf": 2.5
                           }
                         }
                       }
@@ -1361,7 +1346,7 @@
                 "docs": {
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
-                    "tf": 3.125
+                    "tf": 2.941176470588235
                   }
                 }
               }
@@ -1391,7 +1376,7 @@
                 "docs": {
                   "AbstractView.html#name": {
                     "ref": "AbstractView.html#name",
-                    "tf": 766.6666666666666
+                    "tf": 775
                   }
                 }
               }
@@ -1447,7 +1432,7 @@
                         "docs": {
                           "AbstractView.html#undelegateEvents": {
                             "ref": "AbstractView.html#undelegateEvents",
-                            "tf": 3.125
+                            "tf": 2.941176470588235
                           }
                         }
                       }
@@ -1474,27 +1459,18 @@
                           },
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
+                            "tf": 1.0869565217391304
                           }
                         }
                       }
                     },
                     "l": {
                       "docs": {},
-                      "y": {
-                        "docs": {},
-                        ".": {
-                          "docs": {},
-                          "u": {
-                            "docs": {},
-                            "s": {
-                              "docs": {
-                                "AbstractView.html#delegateEvents": {
-                                  "ref": "AbstractView.html#delegateEvents",
-                                  "tf": 1.1627906976744187
-                                }
-                              }
-                            }
+                      "i": {
+                        "docs": {
+                          "AbstractView.html#delegateEvents": {
+                            "ref": "AbstractView.html#delegateEvents",
+                            "tf": 1.0869565217391304
                           }
                         }
                       }
@@ -1538,6 +1514,20 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          },
+          "a": {
+            "docs": {},
+            "i": {
+              "docs": {},
+              "r": {
+                "docs": {
+                  "AbstractView.html#delegateEvents": {
+                    "ref": "AbstractView.html#delegateEvents",
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -1612,7 +1602,7 @@
                     },
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
-                      "tf": 5
+                      "tf": 4.545454545454546
                     },
                     "AbstractView.html#removePermission": {
                       "ref": "AbstractView.html#removePermission",
@@ -1651,6 +1641,27 @@
                 }
               }
             },
+            "t": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "AbstractView.html#permissions": {
+                        "ref": "AbstractView.html#permissions",
+                        "tf": 8.333333333333332
+                      },
+                      "AbstractView.html#canDisplay": {
+                        "ref": "AbstractView.html#canDisplay",
+                        "tf": 12.5
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "f": {
               "docs": {},
               "e": {
@@ -1659,7 +1670,7 @@
                   "docs": {
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
-                      "tf": 1.1627906976744187
+                      "tf": 1.0869565217391304
                     }
                   }
                 }
@@ -1675,7 +1686,7 @@
                     "docs": {
                       "AbstractView.html#delegateEvents": {
                         "ref": "AbstractView.html#delegateEvents",
-                        "tf": 1.1627906976744187
+                        "tf": 1.0869565217391304
                       }
                     }
                   }
@@ -1690,24 +1701,7 @@
                   "docs": {
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 2.7777777777777777
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "AbstractView.html#canDisplay": {
-                        "ref": "AbstractView.html#canDisplay",
-                        "tf": 12.5
-                      }
+                      "tf": 2.5
                     }
                   }
                 }
@@ -1744,11 +1738,11 @@
                   "docs": {
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 2.7777777777777777
+                      "tf": 2.5
                     },
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
-                      "tf": 5
+                      "tf": 4.545454545454546
                     }
                   }
                 }
@@ -1759,17 +1753,13 @@
             "docs": {},
             "t": {
               "docs": {
-                "AbstractView.html#name": {
-                  "ref": "AbstractView.html#name",
-                  "tf": 16.666666666666664
-                },
                 "AbstractView.html#permissions": {
                   "ref": "AbstractView.html#permissions",
                   "tf": 16.666666666666664
                 },
                 "AbstractView.html#delegateEvents": {
                   "ref": "AbstractView.html#delegateEvents",
-                  "tf": 3.488372093023256
+                  "tf": 3.260869565217391
                 }
               },
               "e": {
@@ -1798,11 +1788,15 @@
                         "docs": {
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 2.3255813953488373
+                            "tf": 2.1739130434782608
                           },
                           "AbstractView.html#delegate": {
                             "ref": "AbstractView.html#delegate",
-                            "tf": 2.7777777777777777
+                            "tf": 2.5
+                          },
+                          "AbstractView.html#undelegate": {
+                            "ref": "AbstractView.html#undelegate",
+                            "tf": 4.545454545454546
                           }
                         }
                       }
@@ -1824,7 +1818,7 @@
                     "docs": {
                       "AbstractView.html#delegateEvents": {
                         "ref": "AbstractView.html#delegateEvents",
-                        "tf": 1.1627906976744187
+                        "tf": 1.0869565217391304
                       }
                     }
                   }
@@ -1848,7 +1842,7 @@
                         "docs": {
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
+                            "tf": 1.0869565217391304
                           }
                         }
                       }
@@ -1864,7 +1858,7 @@
                     "docs": {
                       "AbstractView.html#delegate": {
                         "ref": "AbstractView.html#delegate",
-                        "tf": 2.7777777777777777
+                        "tf": 2.5
                       }
                     }
                   }
@@ -1880,7 +1874,7 @@
                 "docs": {
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
-                    "tf": 3.125
+                    "tf": 2.941176470588235
                   }
                 }
               }
@@ -1909,17 +1903,19 @@
               }
             }
           },
-          "e": {
+          "i": {
             "docs": {},
-            "t": {
-              "docs": {
-                "AbstractView.html#name": {
-                  "ref": "AbstractView.html#name",
-                  "tf": 16.666666666666664
-                },
-                "AbstractView.html#permissions": {
-                  "ref": "AbstractView.html#permissions",
-                  "tf": 8.333333333333332
+            "v": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "n": {
+                  "docs": {
+                    "AbstractView.html#delegateEvents": {
+                      "ref": "AbstractView.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    }
+                  }
                 }
               }
             }
@@ -1934,7 +1930,7 @@
                   "docs": {
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
-                      "tf": 5
+                      "tf": 4.545454545454546
                     }
                   }
                 }
@@ -1976,7 +1972,7 @@
                   "docs": {
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
-                      "tf": 3.125
+                      "tf": 2.941176470588235
                     },
                     "AbstractView.html#clearPermissions": {
                       "ref": "AbstractView.html#clearPermissions",
@@ -2037,6 +2033,23 @@
                     }
                   }
                 }
+              },
+              "t": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "x": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractView.html#delegateEvents": {
+                          "ref": "AbstractView.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        }
+                      }
+                    }
+                  }
+                }
               }
             },
             "d": {
@@ -2083,11 +2096,11 @@
                           },
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 2.3255813953488373
+                            "tf": 2.1739130434782608
                           },
                           "AbstractView.html#undelegateEvents": {
                             "ref": "AbstractView.html#undelegateEvents",
-                            "tf": 3.125
+                            "tf": 2.941176470588235
                           },
                           "AbstractView.html#canDisplay": {
                             "ref": "AbstractView.html#canDisplay",
@@ -2164,7 +2177,7 @@
                     },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 2.7777777777777777
+                      "tf": 2.5
                     }
                   }
                 }
@@ -2178,7 +2191,7 @@
                   "docs": {
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 2.7777777777777777
+                      "tf": 2.5
                     }
                   }
                 }
@@ -2195,7 +2208,7 @@
                   "docs": {
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
-                      "tf": 1.1627906976744187
+                      "tf": 1.0869565217391304
                     }
                   }
                 }
@@ -2208,7 +2221,7 @@
               "docs": {
                 "AbstractView.html#delegateEvents": {
                   "ref": "AbstractView.html#delegateEvents",
-                  "tf": 1.1627906976744187
+                  "tf": 1.0869565217391304
                 }
               }
             }
@@ -2260,11 +2273,11 @@
                       },
                       "AbstractView.html#delegate": {
                         "ref": "AbstractView.html#delegate",
-                        "tf": 2.7777777777777777
+                        "tf": 2.5
                       },
                       "AbstractView.html#undelegate": {
                         "ref": "AbstractView.html#undelegate",
-                        "tf": 5
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -2305,7 +2318,43 @@
                   },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.1627906976744187
+                    "tf": 1.0869565217391304
+                  }
+                }
+              }
+            }
+          },
+          "o": {
+            "docs": {},
+            "u": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "d": {
+                  "docs": {
+                    "AbstractView.html#el": {
+                      "ref": "AbstractView.html#el",
+                      "tf": 25
+                    },
+                    "AbstractView.html#delegateEvents": {
+                      "ref": "AbstractView.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
+                    "AbstractView.html#undelegateEvents": {
+                      "ref": "AbstractView.html#undelegateEvents",
+                      "tf": 2.941176470588235
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "h": {
+                "docs": {
+                  "AbstractView.html#undelegate": {
+                    "ref": "AbstractView.html#undelegate",
+                    "tf": 4.545454545454546
                   }
                 }
               }
@@ -2348,33 +2397,15 @@
               }
             }
           },
-          "o": {
+          "l": {
             "docs": {},
             "u": {
               "docs": {},
-              "n": {
-                "docs": {},
-                "d": {
-                  "docs": {
-                    "AbstractView.html#delegateEvents": {
-                      "ref": "AbstractView.html#delegateEvents",
-                      "tf": 1.1627906976744187
-                    },
-                    "AbstractView.html#undelegateEvents": {
-                      "ref": "AbstractView.html#undelegateEvents",
-                      "tf": 3.125
-                    }
-                  }
-                }
-              }
-            },
-            "t": {
-              "docs": {},
-              "h": {
+              "r": {
                 "docs": {
-                  "AbstractView.html#undelegate": {
-                    "ref": "AbstractView.html#undelegate",
-                    "tf": 5
+                  "AbstractView.html#delegate": {
+                    "ref": "AbstractView.html#delegate",
+                    "tf": 2.5
                   }
                 }
               }
@@ -2415,7 +2446,7 @@
                 "docs": {
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.1627906976744187
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -2429,7 +2460,7 @@
                 "docs": {
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.1627906976744187
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -2460,6 +2491,10 @@
                   "docs": {},
                   "r": {
                     "docs": {
+                      "AbstractView.html#el": {
+                        "ref": "AbstractView.html#el",
+                        "tf": 110
+                      },
                       "AbstractView.html#name": {
                         "ref": "AbstractView.html#name",
                         "tf": 110
@@ -2488,7 +2523,7 @@
                       "docs": {
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.1627906976744187
+                          "tf": 1.0869565217391304
                         }
                       }
                     }
@@ -2554,25 +2589,10 @@
                   "p": {
                     "docs": {},
                     "l": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "v": {
-                          "docs": {},
-                          "i": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "w": {
-                                "docs": {
-                                  "AbstractView.html#undelegateEvents": {
-                                    "ref": "AbstractView.html#undelegateEvents",
-                                    "tf": 3.125
-                                  }
-                                }
-                              }
-                            }
-                          }
+                      "docs": {
+                        "AbstractView.html#undelegateEvents": {
+                          "ref": "AbstractView.html#undelegateEvents",
+                          "tf": 2.941176470588235
                         }
                       }
                     }
@@ -2608,11 +2628,11 @@
                   },
                   "AbstractView.html#name": {
                     "ref": "AbstractView.html#name",
-                    "tf": 16.666666666666664
+                    "tf": 25
                   },
                   "AbstractView.html#permissions": {
                     "ref": "AbstractView.html#permissions",
-                    "tf": 16.666666666666664
+                    "tf": 8.333333333333332
                   },
                   "AbstractView.html#initialize": {
                     "ref": "AbstractView.html#initialize",
@@ -2636,11 +2656,11 @@
                   },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
-                    "tf": 2.3255813953488373
+                    "tf": 2.1739130434782608
                   },
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
-                    "tf": 3.125
+                    "tf": 5.88235294117647
                   },
                   "AbstractView.html#addPermission": {
                     "ref": "AbstractView.html#addPermission",
@@ -2697,38 +2717,15 @@
                     }
                   }
                 },
-                "r": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "t": {
-                      "docs": {},
-                      "u": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "n": {
-                            "docs": {
-                              "AbstractView.html#permissions": {
-                                "ref": "AbstractView.html#permissions",
-                                "tf": 8.333333333333332
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
                 "'": {
                   "docs": {
                     "AbstractView.html#setElement": {
                       "ref": "AbstractView.html#setElement",
-                      "tf": 4.545454545454546
+                      "tf": 9.090909090909092
                     },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 2.7777777777777777
+                      "tf": 2.5
                     }
                   }
                 }
@@ -2854,28 +2851,10 @@
             "c": {
               "docs": {},
               "u": {
-                "docs": {},
-                "s": {
-                  "docs": {},
-                  ",": {
-                    "docs": {},
-                    "b": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "u": {
-                          "docs": {},
-                          "r": {
-                            "docs": {
-                              "AbstractView.html#delegate": {
-                                "ref": "AbstractView.html#delegate",
-                                "tf": 2.7777777777777777
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                "docs": {
+                  "AbstractView.html#delegate": {
+                    "ref": "AbstractView.html#delegate",
+                    "tf": 2.5
                   }
                 }
               }
@@ -2891,7 +2870,7 @@
                   "docs": {
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
-                      "tf": 5
+                      "tf": 4.545454545454546
                     }
                   }
                 }
@@ -2901,6 +2880,58 @@
         },
         "e": {
           "docs": {},
+          "l": {
+            "docs": {
+              "AbstractView.html#el": {
+                "ref": "AbstractView.html#el",
+                "tf": 750
+              },
+              "AbstractView.html#delegateEvents": {
+                "ref": "AbstractView.html#delegateEvents",
+                "tf": 2.1739130434782608
+              }
+            },
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractView.html#el": {
+                          "ref": "AbstractView.html#el",
+                          "tf": 25
+                        },
+                        "AbstractView.html#remove": {
+                          "ref": "AbstractView.html#remove",
+                          "tf": 5
+                        },
+                        "AbstractView.html#setElement": {
+                          "ref": "AbstractView.html#setElement",
+                          "tf": 9.090909090909092
+                        },
+                        "AbstractView.html#delegateEvents": {
+                          "ref": "AbstractView.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        },
+                        "AbstractView.html#delegate": {
+                          "ref": "AbstractView.html#delegate",
+                          "tf": 5
+                        },
+                        "AbstractView.html#undelegateEvents": {
+                          "ref": "AbstractView.html#undelegateEvents",
+                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
           "x": {
             "docs": {},
             "c": {
@@ -2930,62 +2961,7 @@
                     "docs": {
                       "AbstractView.html#delegate": {
                         "ref": "AbstractView.html#delegate",
-                        "tf": 2.7777777777777777
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {
-              "AbstractView.html#delegateEvents": {
-                "ref": "AbstractView.html#delegateEvents",
-                "tf": 2.3255813953488373
-              }
-            },
-            "e": {
-              "docs": {},
-              "m": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "n": {
-                    "docs": {},
-                    "t": {
-                      "docs": {
-                        "AbstractView.html#remove": {
-                          "ref": "AbstractView.html#remove",
-                          "tf": 5
-                        },
-                        "AbstractView.html#setElement": {
-                          "ref": "AbstractView.html#setElement",
-                          "tf": 9.090909090909092
-                        },
-                        "AbstractView.html#delegateEvents": {
-                          "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.1627906976744187
-                        },
-                        "AbstractView.html#delegate": {
-                          "ref": "AbstractView.html#delegate",
-                          "tf": 2.7777777777777777
-                        },
-                        "AbstractView.html#undelegateEvents": {
-                          "ref": "AbstractView.html#undelegateEvents",
-                          "tf": 3.125
-                        }
-                      },
-                      "u": {
-                        "docs": {},
-                        "s": {
-                          "docs": {
-                            "AbstractView.html#delegate": {
-                              "ref": "AbstractView.html#delegate",
-                              "tf": 2.7777777777777777
-                            }
-                          }
-                        }
+                        "tf": 2.5
                       }
                     }
                   }
@@ -3011,43 +2987,15 @@
                     },
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
-                      "tf": 2.3255813953488373
+                      "tf": 2.1739130434782608
                     },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
-                      "tf": 5.555555555555555
-                    }
-                  },
-                  ".": {
-                    "docs": {},
-                    "s": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "l": {
-                          "docs": {},
-                          "e": {
-                            "docs": {},
-                            "c": {
-                              "docs": {},
-                              "t": {
-                                "docs": {},
-                                "o": {
-                                  "docs": {},
-                                  "r": {
-                                    "docs": {
-                                      "AbstractView.html#undelegate": {
-                                        "ref": "AbstractView.html#undelegate",
-                                        "tf": 5
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      "tf": 5
+                    },
+                    "AbstractView.html#undelegate": {
+                      "ref": "AbstractView.html#undelegate",
+                      "tf": 4.545454545454546
                     }
                   }
                 }
@@ -3063,37 +3011,10 @@
                 "c": {
                   "docs": {},
                   "i": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "c": {
-                          "docs": {},
-                          "y": {
-                            "docs": {},
-                            ".": {
-                              "docs": {},
-                              "o": {
-                                "docs": {},
-                                "m": {
-                                  "docs": {},
-                                  "i": {
-                                    "docs": {},
-                                    "t": {
-                                      "docs": {
-                                        "AbstractView.html#delegateEvents": {
-                                          "ref": "AbstractView.html#delegateEvents",
-                                          "tf": 1.1627906976744187
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
+                    "docs": {
+                      "AbstractView.html#delegateEvents": {
+                        "ref": "AbstractView.html#delegateEvents",
+                        "tf": 1.0869565217391304
                       }
                     }
                   }
@@ -3124,7 +3045,7 @@
                       },
                       "AbstractView.html#undelegate": {
                         "ref": "AbstractView.html#undelegate",
-                        "tf": 5
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -3154,7 +3075,7 @@
                         },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.1627906976744187
+                          "tf": 1.0869565217391304
                         }
                       }
                     }
@@ -3174,21 +3095,15 @@
               }
             }
           },
-          "f": {
+          "m": {
             "docs": {},
-            "p": {
+            "i": {
               "docs": {},
-              "a": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "AbstractView.html#delegateEvents": {
-                        "ref": "AbstractView.html#delegateEvents",
-                        "tf": 1.1627906976744187
-                      }
-                    }
+              "t": {
+                "docs": {
+                  "AbstractView.html#delegateEvents": {
+                    "ref": "AbstractView.html#delegateEvents",
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -3205,11 +3120,15 @@
               },
               "AbstractView.html#delegateEvents": {
                 "ref": "AbstractView.html#delegateEvents",
-                "tf": 1.1627906976744187
+                "tf": 2.1739130434782608
+              },
+              "AbstractView.html#delegate": {
+                "ref": "AbstractView.html#delegate",
+                "tf": 2.5
               },
               "AbstractView.html#undelegateEvents": {
                 "ref": "AbstractView.html#undelegateEvents",
-                "tf": 3.125
+                "tf": 2.941176470588235
               }
             },
             "u": {
@@ -3220,7 +3139,7 @@
                   "docs": {
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
-                      "tf": 3.125
+                      "tf": 2.941176470588235
                     }
                   }
                 }
@@ -3235,7 +3154,7 @@
                 "docs": {
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.1627906976744187
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -3274,7 +3193,7 @@
                                   },
                                   "AbstractView.html#undelegate": {
                                     "ref": "AbstractView.html#undelegate",
-                                    "tf": 5
+                                    "tf": 4.545454545454546
                                   }
                                 }
                               }
@@ -3307,75 +3226,6 @@
           },
           "h": {
             "docs": {},
-            "e": {
-              "docs": {},
-              "v": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "w": {
-                      "docs": {},
-                      "'": {
-                        "docs": {
-                          "AbstractView.html#setElement": {
-                            "ref": "AbstractView.html#setElement",
-                            "tf": 4.545454545454546
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "g": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "v": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {
-                          "AbstractView.html#delegateEvents": {
-                            "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "t": {
-                "docs": {},
-                "h": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "s": {
-                      "docs": {},
-                      ".": {
-                        "docs": {},
-                        "e": {
-                          "docs": {},
-                          "l": {
-                            "docs": {
-                              "AbstractView.html#delegateEvents": {
-                                "ref": "AbstractView.html#delegateEvents",
-                                "tf": 1.1627906976744187
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "i": {
               "docs": {},
               "s": {
@@ -3392,7 +3242,7 @@
                         },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.1627906976744187
+                          "tf": 2.1739130434782608
                         }
                       }
                     },
@@ -3400,7 +3250,7 @@
                       "docs": {
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.1627906976744187
+                          "tf": 1.0869565217391304
                         }
                       }
                     }
@@ -3413,7 +3263,7 @@
                         "docs": {
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
+                            "tf": 1.0869565217391304
                           }
                         }
                       }
@@ -3427,7 +3277,7 @@
                         "docs": {
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.1627906976744187
+                            "tf": 1.0869565217391304
                           }
                         }
                       }
@@ -3448,32 +3298,11 @@
                 "docs": {},
                 "r": {
                   "docs": {},
-                  "y": {
-                    "docs": {},
-                    "c": {
-                      "docs": {},
-                      "o": {
-                        "docs": {},
-                        "n": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "e": {
-                              "docs": {},
-                              "x": {
-                                "docs": {},
-                                "t": {
-                                  "docs": {
-                                    "AbstractView.html#delegateEvents": {
-                                      "ref": "AbstractView.html#delegateEvents",
-                                      "tf": 1.1627906976744187
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
+                  "i": {
+                    "docs": {
+                      "AbstractView.html#delegateEvents": {
+                        "ref": "AbstractView.html#delegateEvents",
+                        "tf": 1.0869565217391304
                       }
                     }
                   }
@@ -3492,7 +3321,7 @@
                 "docs": {
                   "AbstractView.html#delegate": {
                     "ref": "AbstractView.html#delegate",
-                    "tf": 2.7777777777777777
+                    "tf": 2.5
                   }
                 }
               }
@@ -3506,7 +3335,7 @@
                 "docs": {
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
-                    "tf": 3.125
+                    "tf": 2.941176470588235
                   }
                 }
               }
@@ -3514,7 +3343,7 @@
           }
         }
       },
-      "length": 246
+      "length": 247
     },
     "corpusTokens": [
       "abstractview",
@@ -3525,6 +3354,7 @@
       "abstractview#clearpermiss",
       "abstractview#deleg",
       "abstractview#delegateev",
+      "abstractview#el",
       "abstractview#init",
       "abstractview#initi",
       "abstractview#matchespermiss",
@@ -3539,9 +3369,9 @@
       "add",
       "addpermiss",
       "afterrend",
-      "analtern",
-      "anyapplic",
+      "altern",
       "api",
+      "applic",
       "attach",
       "aubstract",
       "augmented.j",
@@ -3549,6 +3379,7 @@
       "befor",
       "beforerend",
       "bind",
+      "blur",
       "both",
       "bound",
       "callback",
@@ -3560,30 +3391,28 @@
       "clearpermiss",
       "code",
       "concept",
+      "context",
       "creat",
       "css",
       "custom",
       "deleg",
       "delegateev",
-      "delegateevents.y",
       "develop",
       "display",
       "document",
       "dom",
       "don't",
-      "efficiency.omit",
+      "effici",
       "el",
       "element",
-      "elementus",
       "event",
-      "event.selector",
       "exclud",
       "explor",
       "finer",
-      "focus,blur",
+      "focu",
       "format",
       "function",
-      "get",
+      "given",
       "global",
       "grain",
       "handlng",
@@ -3595,7 +3424,7 @@
       "initi",
       "instead",
       "internet",
-      "jquerycontext",
+      "jqueri",
       "list",
       "list:class",
       "listen",
@@ -3603,7 +3432,7 @@
       "match",
       "matchespermiss",
       "member",
-      "multipleview",
+      "multipl",
       "mv",
       "name",
       "need",
@@ -3611,14 +3440,15 @@
       "new",
       "next",
       "note",
-      "ofpair",
+      "omit",
       "option",
       "out",
       "overrid",
+      "pair",
       "permiss",
       "present",
       "previous",
-      "properly.us",
+      "properli",
       "properti",
       "re",
       "readm",
@@ -3639,9 +3469,6 @@
       "subclass",
       "submit",
       "take",
-      "thegiven",
-      "thethis.el",
-      "theview'",
       "this.$el",
       "this._el",
       "this.el",
@@ -3655,7 +3482,6 @@
       "view#remov",
       "view#rend",
       "view'",
-      "viewreturn",
       "wish",
       "work"
     ],
@@ -3741,6 +3567,16 @@
       "description": "Aubstract View - the base view for handlng display in the MV* Concept",
       "body": ""
     },
+    "AbstractView.html#el": {
+      "id": "AbstractView.html#el",
+      "kind": "member",
+      "title": "el",
+      "longname": "AbstractView#el",
+      "name": "el",
+      "tags": "AbstractView#el el",
+      "summary": "",
+      "description": "The element bound"
+    },
     "AbstractView.html#name": {
       "id": "AbstractView.html#name",
       "kind": "member",
@@ -3749,7 +3585,7 @@
       "name": "name",
       "tags": "AbstractView#name name",
       "summary": "",
-      "description": "Gets the name of the view"
+      "description": "The name of the view"
     },
     "AbstractView.html#permissions": {
       "id": "AbstractView.html#permissions",
@@ -3759,7 +3595,7 @@
       "name": "permissions",
       "tags": "AbstractView#permissions permissions",
       "summary": "",
-      "description": "Gets the permissions to the viewReturn format: { include: [], exclude: [] }"
+      "description": "The permissions to the view Return format: { include: [], exclude: [] }"
     },
     "AbstractView.html#init": {
       "id": "AbstractView.html#init",
@@ -3819,7 +3655,7 @@
       "name": "remove",
       "tags": "AbstractView#remove remove",
       "summary": "",
-      "description": "Remove this view by taking the element out of the DOM, and removing anyapplicable Events listeners."
+      "description": "Remove this view by taking the element out of the DOM, and removing any applicable Events listeners."
     },
     "AbstractView.html#setElement": {
       "id": "AbstractView.html#setElement",
@@ -3829,7 +3665,7 @@
       "name": "setElement",
       "tags": "AbstractView#setElement setElement",
       "summary": "",
-      "description": "Change the view's element (this.el property) and re-delegate theview's events on the new element."
+      "description": "Change the view's element (this.el property) and re-delegate the view's events on the new element."
     },
     "AbstractView.html#delegateEvents": {
       "id": "AbstractView.html#delegateEvents",
@@ -3839,7 +3675,7 @@
       "name": "delegateEvents",
       "tags": "AbstractView#delegateEvents delegateEvents",
       "summary": "",
-      "description": "Creates the this.el and this.$el references for this view using thegiven el. el can be a CSS selector or an HTML string, a jQuerycontext or an element. Subclasses can override this to utilize analternative DOM manipulation API and are only required to set thethis.el property. Set callbacks, where this.events is a hash ofpairs. Callbacks will be bound to the view, with this set properly.Uses event delegation for efficiency.Omitting the selector binds the event to this._el."
+      "description": "Creates the this.el and this.$el references for this view using the given el. el can be a CSS selector or an HTML string, a jQuery context or an element. Subclasses can override this to utilize an alternative DOM manipulation API and are only required to set the this.el property. Set callbacks, where this.events is a hash of pairs. Callbacks will be bound to the view, with this set properly. Uses event delegation for efficiency. Omitting the selector binds the event to this._el."
     },
     "AbstractView.html#delegate": {
       "id": "AbstractView.html#delegate",
@@ -3849,7 +3685,7 @@
       "name": "delegate",
       "tags": "AbstractView#delegate delegate",
       "summary": "",
-      "description": "Add a single event listener to the view's element (or a child elementusing selector). This only works for delegate-able events: not focus,blur, and not change, submit, and reset in Internet Explorer."
+      "description": "Add a single event listener to the view's element (or a child element using selector). This only works for delegate-able events: not focus, blur, and not change, submit, and reset in Internet Explorer."
     },
     "AbstractView.html#undelegateEvents": {
       "id": "AbstractView.html#undelegateEvents",
@@ -3859,7 +3695,7 @@
       "name": "undelegateEvents",
       "tags": "AbstractView#undelegateEvents undelegateEvents",
       "summary": "",
-      "description": "Clears all callbacks previously bound to the view by delegateEvents.You usually don't need to use this, but may wish to if you have multipleviews attached to the same DOM element."
+      "description": "Clears all callbacks previously bound to the view by delegateEvents. You usually don't need to use this, but may wish to if you have multiple views attached to the same DOM element."
     },
     "AbstractView.html#undelegate": {
       "id": "AbstractView.html#undelegate",
@@ -3869,7 +3705,7 @@
       "name": "undelegate",
       "tags": "AbstractView#undelegate undelegate",
       "summary": "",
-      "description": "A finer-grained undelegateEvents for removing a single delegated event.selector and listener are both optional."
+      "description": "A finer-grained undelegateEvents for removing a single delegated event. selector and listener are both optional."
     },
     "AbstractView.html#addPermission": {
       "id": "AbstractView.html#addPermission",

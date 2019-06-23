@@ -14,6 +14,7 @@ Augmented.js Presentation View Module
     -   [remove](#remove)
 -   [AbstractView](#abstractview)
     -   [Parameters](#parameters-1)
+    -   [el](#el)
     -   [init](#init)
         -   [Parameters](#parameters-2)
     -   [initialize](#initialize)
@@ -34,7 +35,6 @@ Augmented.js Presentation View Module
         -   [Parameters](#parameters-7)
     -   [name](#name)
         -   [Parameters](#parameters-8)
-    -   [name](#name-1)
     -   [addPermission](#addpermission)
         -   [Parameters](#parameters-9)
     -   [removePermission](#removepermission)
@@ -42,6 +42,7 @@ Augmented.js Presentation View Module
     -   [permissions](#permissions)
         -   [Parameters](#parameters-11)
     -   [permissions](#permissions-1)
+        -   [Properties](#properties)
     -   [clearPermissions](#clearpermissions)
     -   [matchesPermission](#matchespermission)
         -   [Parameters](#parameters-12)
@@ -77,6 +78,10 @@ Aubstract View - the base view for handlng display in the MV\* Concept
 
 -   `options`  
 
+### el
+
+The element bound
+
 ### init
 
 Custom initialize - Override for custom code
@@ -101,6 +106,11 @@ Before Render callback for the view
 
 Returns **any** this Context of the view
 
+**Meta**
+
+-   **deprecated**: This is deprecated.
+
+
 ### render
 
 Render callback for the view
@@ -112,6 +122,11 @@ Returns **any** this Context of the view
 After Render callback for the view
 
 Returns **any** this Context of the view
+
+**Meta**
+
+-   **deprecated**: This is deprecated.
+
 
 ### remove
 
@@ -189,17 +204,11 @@ A finer-grained `undelegateEvents` for removing a single delegated event.
 
 ### name
 
-Sets the name of the view
+The name of the view
 
 #### Parameters
 
--   `name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The name of the view
-
-### name
-
-Gets the name of the view
-
-Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Returns the name of the view
+-   `name`  
 
 ### addPermission
 
@@ -230,7 +239,7 @@ Sets the permissions to the view
 
 ### permissions
 
-Gets the permissions to the view<br/>
+The permissions to the view<br/>
 Return format:<br/>
 
 <pre>{
@@ -238,7 +247,9 @@ Return format:<br/>
     exclude: []
 }</pre>
 
-Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** The permissions in the view
+#### Properties
+
+-   `permissions` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
 
 ### clearPermissions
 

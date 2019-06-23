@@ -28,8 +28,8 @@ class View extends AbstractView {
   };
 
   /**
-  * Remove the view and all binds
-  */
+   * Remove the view and all binds
+   */
   remove() {
     /* off to unbind the events */
     this.undelegateEvents();
@@ -45,7 +45,7 @@ class View extends AbstractView {
       }
     }
     return this;
-  }
+  };
 };
 
 export default View;
