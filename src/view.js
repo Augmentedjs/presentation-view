@@ -3,7 +3,7 @@ import { isString } from "next-core-utilities";
 
 /**
  * View - the base view for handlng display in the MV* Concept
- * @extends Presentation.AbstractView
+ * @extends AbstractView
  */
 class View extends AbstractView {
   constructor(options) {

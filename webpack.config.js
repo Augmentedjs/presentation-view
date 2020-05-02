@@ -1,16 +1,16 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   context: __dirname,
   target: "web",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'presentation-view.js',
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, "dist"),
+    filename: "presentation-view.js",
+    publicPath: "/dist/",
     library: "presentation-view",
-    globalObject: 'this',
+    globalObject: "this",
     libraryTarget: "umd",
     umdNamedDefine: true
   },
@@ -26,23 +26,23 @@ module.exports = {
     ]
   },
   externals: {
-    'next-core-object': {
-      commonjs: 'next-core-object',
-      commonjs2: 'next-core-object',
-      amd: 'next-core-object',
-      root: 'next-core-object'
+    "next-core-object": {
+      commonjs: "next-core-object",
+      commonjs2: "next-core-object",
+      amd: "next-core-object",
+      root: "next-core-object"
     },
-    'next-core-utilities': {
-      commonjs: 'next-core-utilities',
-      commonjs2: 'next-core-utilities',
-      amd: 'next-core-utilities',
-      root: 'next-core-utilities'
+    "next-core-utilities": {
+      commonjs: "next-core-utilities",
+      commonjs2: "next-core-utilities",
+      amd: "next-core-utilities",
+      root: "next-core-utilities"
     },
-    'lodash.bind': {
-      commonjs: 'lodash.bind',
-      commonjs2: 'lodash.bind',
-      amd: 'lodash.bind',
-      root: 'lodash.bind'
+    "lodash.bind": {
+      commonjs: "lodash.bind",
+      commonjs2: "lodash.bind",
+      amd: "lodash.bind",
+      root: "lodash.bind"
     }
   },
   stats: "errors-only",

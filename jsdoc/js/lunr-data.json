@@ -67,6 +67,26 @@
           "mv",
           "view"
         ],
+        "View.html#el": [
+          "bound",
+          "el",
+          "element",
+          "member",
+          "view#el"
+        ],
+        "View.html#name": [
+          "member",
+          "name",
+          "view",
+          "view#nam"
+        ],
+        "View.html#permissions": [
+          "member",
+          "permiss",
+          "set",
+          "view",
+          "view#permiss"
+        ],
         "View.html#render": [
           "callback",
           "function",
@@ -80,6 +100,165 @@
           "remov",
           "view",
           "view#remov"
+        ],
+        "View.html#setElement": [
+          "chang",
+          "deleg",
+          "element",
+          "event",
+          "function",
+          "new",
+          "properti",
+          "re",
+          "setel",
+          "this.el",
+          "view#setel",
+          "view'"
+        ],
+        "View.html#delegateEvents": [
+          "altern",
+          "api",
+          "bind",
+          "bound",
+          "callback",
+          "context",
+          "creat",
+          "css",
+          "deleg",
+          "delegateev",
+          "dom",
+          "effici",
+          "el",
+          "element",
+          "event",
+          "function",
+          "given",
+          "hash",
+          "html",
+          "jqueri",
+          "manipul",
+          "omit",
+          "overrid",
+          "pair",
+          "properli",
+          "properti",
+          "refer",
+          "requir",
+          "selector",
+          "set",
+          "string",
+          "subclass",
+          "this.$el",
+          "this._el",
+          "this.el",
+          "this.ev",
+          "us",
+          "util",
+          "view",
+          "view#delegateev"
+        ],
+        "View.html#delegate": [
+          "add",
+          "blur",
+          "chang",
+          "child",
+          "deleg",
+          "element",
+          "event",
+          "explor",
+          "focu",
+          "function",
+          "internet",
+          "listen",
+          "reset",
+          "selector",
+          "singl",
+          "submit",
+          "us",
+          "view#deleg",
+          "view'",
+          "work"
+        ],
+        "View.html#undelegateEvents": [
+          "attach",
+          "bound",
+          "callback",
+          "clear",
+          "delegateev",
+          "dom",
+          "don't",
+          "element",
+          "function",
+          "multipl",
+          "need",
+          "previous",
+          "same",
+          "undelegateev",
+          "us",
+          "usual",
+          "view",
+          "view#undelegateev",
+          "wish"
+        ],
+        "View.html#undelegate": [
+          "both",
+          "deleg",
+          "event",
+          "finer",
+          "function",
+          "grain",
+          "listen",
+          "option",
+          "remov",
+          "selector",
+          "singl",
+          "undeleg",
+          "undelegateev",
+          "view#undeleg"
+        ],
+        "View.html#addPermission": [
+          "add",
+          "addpermiss",
+          "function",
+          "neg",
+          "permiss",
+          "view",
+          "view#addpermiss"
+        ],
+        "View.html#removePermission": [
+          "function",
+          "neg",
+          "permiss",
+          "remov",
+          "removepermiss",
+          "view",
+          "view#removepermiss"
+        ],
+        "View.html#clearPermissions": [
+          "clear",
+          "clearpermiss",
+          "function",
+          "permiss",
+          "view",
+          "view#clearpermiss"
+        ],
+        "View.html#matchesPermission": [
+          "function",
+          "match",
+          "matchespermiss",
+          "neg",
+          "permiss",
+          "view",
+          "view#matchespermiss"
+        ],
+        "View.html#canDisplay": [
+          "callback",
+          "candisplay",
+          "display",
+          "function",
+          "return",
+          "view",
+          "view#candisplay"
         ],
         "AbstractView.html": [
           "abstractview",
@@ -115,47 +294,8 @@
           "return",
           "view"
         ],
-        "AbstractView.html#init": [
-          "abstractview#init",
-          "code",
-          "custom",
-          "function",
-          "init",
-          "initi",
-          "option",
-          "overrid"
-        ],
-        "AbstractView.html#initialize": [
-          "abstractview#initi",
-          "function",
-          "init",
-          "initi",
-          "instead",
-          "note",
-          "option",
-          "overrid",
-          "us",
-          "view"
-        ],
-        "AbstractView.html#beforeRender": [
-          "abstractview#beforerend",
-          "befor",
-          "beforerend",
-          "callback",
-          "function",
-          "render",
-          "view"
-        ],
         "AbstractView.html#render": [
           "abstractview#rend",
-          "callback",
-          "function",
-          "render",
-          "view"
-        ],
-        "AbstractView.html#afterRender": [
-          "abstractview#afterrend",
-          "afterrend",
           "callback",
           "function",
           "render",
@@ -334,7 +474,7 @@
           "view"
         ]
       },
-      "length": 26
+      "length": 35
     },
     "tokenStore": {
       "root": {
@@ -395,6 +535,139 @@
                             }
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "l": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "e": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "View.html#delegateEvents": {
+                        "ref": "View.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      },
+                      "AbstractView.html#delegateEvents": {
+                        "ref": "AbstractView.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "i": {
+              "docs": {
+                "View.html#delegateEvents": {
+                  "ref": "View.html#delegateEvents",
+                  "tf": 1.0869565217391304
+                },
+                "AbstractView.html#delegateEvents": {
+                  "ref": "AbstractView.html#delegateEvents",
+                  "tf": 1.0869565217391304
+                }
+              }
+            },
+            "p": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "i": {
+                  "docs": {},
+                  "c": {
+                    "docs": {
+                      "AbstractView.html#remove": {
+                        "ref": "AbstractView.html#remove",
+                        "tf": 5
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "d": {
+            "docs": {},
+            "d": {
+              "docs": {
+                "View.html#delegate": {
+                  "ref": "View.html#delegate",
+                  "tf": 2.5
+                },
+                "View.html#addPermission": {
+                  "ref": "View.html#addPermission",
+                  "tf": 16.666666666666664
+                },
+                "AbstractView.html#delegate": {
+                  "ref": "AbstractView.html#delegate",
+                  "tf": 2.5
+                },
+                "AbstractView.html#addPermission": {
+                  "ref": "AbstractView.html#addPermission",
+                  "tf": 16.666666666666664
+                }
+              },
+              "p": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "r": {
+                    "docs": {},
+                    "m": {
+                      "docs": {},
+                      "i": {
+                        "docs": {},
+                        "s": {
+                          "docs": {},
+                          "s": {
+                            "docs": {
+                              "View.html#addPermission": {
+                                "ref": "View.html#addPermission",
+                                "tf": 683.3333333333334
+                              },
+                              "AbstractView.html#addPermission": {
+                                "ref": "AbstractView.html#addPermission",
+                                "tf": 683.3333333333334
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "h": {
+                    "docs": {
+                      "View.html#undelegateEvents": {
+                        "ref": "View.html#undelegateEvents",
+                        "tf": 2.941176470588235
+                      },
+                      "AbstractView.html#undelegateEvents": {
+                        "ref": "AbstractView.html#undelegateEvents",
+                        "tf": 2.941176470588235
                       }
                     }
                   }
@@ -482,66 +755,6 @@
                                       }
                                     }
                                   },
-                                  "i": {
-                                    "docs": {},
-                                    "n": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "t": {
-                                          "docs": {
-                                            "AbstractView.html#init": {
-                                              "ref": "AbstractView.html#init",
-                                              "tf": 1150
-                                            }
-                                          },
-                                          "i": {
-                                            "docs": {
-                                              "AbstractView.html#initialize": {
-                                                "ref": "AbstractView.html#initialize",
-                                                "tf": 1150
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "b": {
-                                    "docs": {},
-                                    "e": {
-                                      "docs": {},
-                                      "f": {
-                                        "docs": {},
-                                        "o": {
-                                          "docs": {},
-                                          "r": {
-                                            "docs": {},
-                                            "e": {
-                                              "docs": {},
-                                              "r": {
-                                                "docs": {},
-                                                "e": {
-                                                  "docs": {},
-                                                  "n": {
-                                                    "docs": {},
-                                                    "d": {
-                                                      "docs": {
-                                                        "AbstractView.html#beforeRender": {
-                                                          "ref": "AbstractView.html#beforeRender",
-                                                          "tf": 1150
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
                                   "r": {
                                     "docs": {},
                                     "e": {
@@ -590,70 +803,6 @@
                                                               }
                                                             }
                                                           }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "a": {
-                                    "docs": {},
-                                    "f": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {},
-                                        "e": {
-                                          "docs": {},
-                                          "r": {
-                                            "docs": {},
-                                            "r": {
-                                              "docs": {},
-                                              "e": {
-                                                "docs": {},
-                                                "n": {
-                                                  "docs": {},
-                                                  "d": {
-                                                    "docs": {
-                                                      "AbstractView.html#afterRender": {
-                                                        "ref": "AbstractView.html#afterRender",
-                                                        "tf": 1150
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "d": {
-                                      "docs": {},
-                                      "d": {
-                                        "docs": {},
-                                        "p": {
-                                          "docs": {},
-                                          "e": {
-                                            "docs": {},
-                                            "r": {
-                                              "docs": {},
-                                              "m": {
-                                                "docs": {},
-                                                "i": {
-                                                  "docs": {},
-                                                  "s": {
-                                                    "docs": {},
-                                                    "s": {
-                                                      "docs": {
-                                                        "AbstractView.html#addPermission": {
-                                                          "ref": "AbstractView.html#addPermission",
-                                                          "tf": 1150
                                                         }
                                                       }
                                                     }
@@ -760,6 +909,41 @@
                                                               "tf": 1150
                                                             }
                                                           }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "a": {
+                                    "docs": {},
+                                    "d": {
+                                      "docs": {},
+                                      "d": {
+                                        "docs": {},
+                                        "p": {
+                                          "docs": {},
+                                          "e": {
+                                            "docs": {},
+                                            "r": {
+                                              "docs": {},
+                                              "m": {
+                                                "docs": {},
+                                                "i": {
+                                                  "docs": {},
+                                                  "s": {
+                                                    "docs": {},
+                                                    "s": {
+                                                      "docs": {
+                                                        "AbstractView.html#addPermission": {
+                                                          "ref": "AbstractView.html#addPermission",
+                                                          "tf": 1150
                                                         }
                                                       }
                                                     }
@@ -903,144 +1087,6 @@
                 }
               }
             }
-          },
-          "f": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "n": {
-                        "docs": {},
-                        "d": {
-                          "docs": {
-                            "AbstractView.html#afterRender": {
-                              "ref": "AbstractView.html#afterRender",
-                              "tf": 750
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "p": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "c": {
-                    "docs": {
-                      "AbstractView.html#remove": {
-                        "ref": "AbstractView.html#remove",
-                        "tf": 5
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {
-                "AbstractView.html#delegateEvents": {
-                  "ref": "AbstractView.html#delegateEvents",
-                  "tf": 1.0869565217391304
-                }
-              }
-            }
-          },
-          "l": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "AbstractView.html#delegateEvents": {
-                        "ref": "AbstractView.html#delegateEvents",
-                        "tf": 1.0869565217391304
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "d": {
-            "docs": {},
-            "d": {
-              "docs": {
-                "AbstractView.html#delegate": {
-                  "ref": "AbstractView.html#delegate",
-                  "tf": 2.5
-                },
-                "AbstractView.html#addPermission": {
-                  "ref": "AbstractView.html#addPermission",
-                  "tf": 16.666666666666664
-                }
-              },
-              "p": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {},
-                    "m": {
-                      "docs": {},
-                      "i": {
-                        "docs": {},
-                        "s": {
-                          "docs": {},
-                          "s": {
-                            "docs": {
-                              "AbstractView.html#addPermission": {
-                                "ref": "AbstractView.html#addPermission",
-                                "tf": 683.3333333333334
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "t": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "a": {
-                "docs": {},
-                "c": {
-                  "docs": {},
-                  "h": {
-                    "docs": {
-                      "AbstractView.html#undelegateEvents": {
-                        "ref": "AbstractView.html#undelegateEvents",
-                        "tf": 2.941176470588235
-                      }
-                    }
-                  }
-                }
-              }
-            }
           }
         },
         "d": {
@@ -1073,6 +1119,22 @@
                 "docs": {},
                 "g": {
                   "docs": {
+                    "View.html#setElement": {
+                      "ref": "View.html#setElement",
+                      "tf": 4.545454545454546
+                    },
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 752.5
+                    },
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
                     "AbstractView.html#setElement": {
                       "ref": "AbstractView.html#setElement",
                       "tf": 4.545454545454546
@@ -1100,6 +1162,14 @@
                           "docs": {},
                           "v": {
                             "docs": {
+                              "View.html#delegateEvents": {
+                                "ref": "View.html#delegateEvents",
+                                "tf": 750
+                              },
+                              "View.html#undelegateEvents": {
+                                "ref": "View.html#undelegateEvents",
+                                "tf": 2.941176470588235
+                              },
                               "AbstractView.html#delegateEvents": {
                                 "ref": "AbstractView.html#delegateEvents",
                                 "tf": 750
@@ -1149,6 +1219,14 @@
             },
             "m": {
               "docs": {
+                "View.html#delegateEvents": {
+                  "ref": "View.html#delegateEvents",
+                  "tf": 1.0869565217391304
+                },
+                "View.html#undelegateEvents": {
+                  "ref": "View.html#undelegateEvents",
+                  "tf": 2.941176470588235
+                },
                 "AbstractView.html#remove": {
                   "ref": "AbstractView.html#remove",
                   "tf": 5
@@ -1169,6 +1247,10 @@
                 "docs": {},
                 "t": {
                   "docs": {
+                    "View.html#undelegateEvents": {
+                      "ref": "View.html#undelegateEvents",
+                      "tf": 2.941176470588235
+                    },
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
                       "tf": 2.941176470588235
@@ -1193,6 +1275,10 @@
                         "View.html": {
                           "ref": "View.html",
                           "tf": 7.142857142857142
+                        },
+                        "View.html#canDisplay": {
+                          "ref": "View.html#canDisplay",
+                          "tf": 12.5
                         },
                         "AbstractView.html": {
                           "ref": "AbstractView.html",
@@ -1228,70 +1314,6 @@
                 }
               }
             },
-            "c": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "d": {
-                    "docs": {
-                      "AbstractView.html#permissions": {
-                        "ref": "AbstractView.html#permissions",
-                        "tf": 8.333333333333332
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "i": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "AbstractView.html#init": {
-                    "ref": "AbstractView.html#init",
-                    "tf": 700
-                  },
-                  "AbstractView.html#initialize": {
-                    "ref": "AbstractView.html#initialize",
-                    "tf": 7.142857142857142
-                  }
-                },
-                "i": {
-                  "docs": {
-                    "AbstractView.html#init": {
-                      "ref": "AbstractView.html#init",
-                      "tf": 10
-                    },
-                    "AbstractView.html#initialize": {
-                      "ref": "AbstractView.html#initialize",
-                      "tf": 707.1428571428571
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "a": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "AbstractView.html#initialize": {
-                          "ref": "AbstractView.html#initialize",
-                          "tf": 7.142857142857142
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "t": {
               "docs": {},
               "e": {
@@ -1304,11 +1326,32 @@
                       "docs": {},
                       "t": {
                         "docs": {
+                          "View.html#delegate": {
+                            "ref": "View.html#delegate",
+                            "tf": 2.5
+                          },
                           "AbstractView.html#delegate": {
                             "ref": "AbstractView.html#delegate",
                             "tf": 2.5
                           }
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "AbstractView.html#permissions": {
+                        "ref": "AbstractView.html#permissions",
+                        "tf": 8.333333333333332
                       }
                     }
                   }
@@ -1334,6 +1377,10 @@
             },
             "w": {
               "docs": {
+                "View.html#setElement": {
+                  "ref": "View.html#setElement",
+                  "tf": 4.545454545454546
+                },
                 "AbstractView.html#setElement": {
                   "ref": "AbstractView.html#setElement",
                   "tf": 4.545454545454546
@@ -1344,6 +1391,10 @@
               "docs": {},
               "d": {
                 "docs": {
+                  "View.html#undelegateEvents": {
+                    "ref": "View.html#undelegateEvents",
+                    "tf": 2.941176470588235
+                  },
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
                     "tf": 2.941176470588235
@@ -1353,6 +1404,18 @@
             },
             "g": {
               "docs": {
+                "View.html#addPermission": {
+                  "ref": "View.html#addPermission",
+                  "tf": 33.33333333333333
+                },
+                "View.html#removePermission": {
+                  "ref": "View.html#removePermission",
+                  "tf": 33.33333333333333
+                },
+                "View.html#matchesPermission": {
+                  "ref": "View.html#matchesPermission",
+                  "tf": 33.33333333333333
+                },
                 "AbstractView.html#addPermission": {
                   "ref": "AbstractView.html#addPermission",
                   "tf": 33.33333333333333
@@ -1374,23 +1437,13 @@
               "docs": {},
               "e": {
                 "docs": {
+                  "View.html#name": {
+                    "ref": "View.html#name",
+                    "tf": 775
+                  },
                   "AbstractView.html#name": {
                     "ref": "AbstractView.html#name",
                     "tf": 775
-                  }
-                }
-              }
-            }
-          },
-          "o": {
-            "docs": {},
-            "t": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractView.html#initialize": {
-                    "ref": "AbstractView.html#initialize",
-                    "tf": 7.142857142857142
                   }
                 }
               }
@@ -1430,6 +1483,10 @@
                       "docs": {},
                       "s": {
                         "docs": {
+                          "View.html#undelegateEvents": {
+                            "ref": "View.html#undelegateEvents",
+                            "tf": 2.941176470588235
+                          },
                           "AbstractView.html#undelegateEvents": {
                             "ref": "AbstractView.html#undelegateEvents",
                             "tf": 2.941176470588235
@@ -1453,6 +1510,14 @@
                       "docs": {},
                       "i": {
                         "docs": {
+                          "View.html#setElement": {
+                            "ref": "View.html#setElement",
+                            "tf": 4.545454545454546
+                          },
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          },
                           "AbstractView.html#setElement": {
                             "ref": "AbstractView.html#setElement",
                             "tf": 4.545454545454546
@@ -1468,6 +1533,10 @@
                       "docs": {},
                       "i": {
                         "docs": {
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          },
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
                             "tf": 1.0869565217391304
@@ -1492,6 +1561,26 @@
                     "docs": {},
                     "s": {
                       "docs": {
+                        "View.html#permissions": {
+                          "ref": "View.html#permissions",
+                          "tf": 766.6666666666666
+                        },
+                        "View.html#addPermission": {
+                          "ref": "View.html#addPermission",
+                          "tf": 49.99999999999999
+                        },
+                        "View.html#removePermission": {
+                          "ref": "View.html#removePermission",
+                          "tf": 49.99999999999999
+                        },
+                        "View.html#clearPermissions": {
+                          "ref": "View.html#clearPermissions",
+                          "tf": 16.666666666666664
+                        },
+                        "View.html#matchesPermission": {
+                          "ref": "View.html#matchesPermission",
+                          "tf": 16.666666666666664
+                        },
                         "AbstractView.html#permissions": {
                           "ref": "AbstractView.html#permissions",
                           "tf": 758.3333333333334
@@ -1525,6 +1614,10 @@
               "docs": {},
               "r": {
                 "docs": {
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
                     "tf": 1.0869565217391304
@@ -1538,6 +1631,10 @@
           "docs": {},
           "e": {
             "docs": {
+              "View.html#setElement": {
+                "ref": "View.html#setElement",
+                "tf": 4.545454545454546
+              },
               "AbstractView.html#setElement": {
                 "ref": "AbstractView.html#setElement",
                 "tf": 4.545454545454546
@@ -1569,17 +1666,9 @@
                         "ref": "View.html#render",
                         "tf": 766.6666666666666
                       },
-                      "AbstractView.html#beforeRender": {
-                        "ref": "AbstractView.html#beforeRender",
-                        "tf": 12.5
-                      },
                       "AbstractView.html#render": {
                         "ref": "AbstractView.html#render",
                         "tf": 766.6666666666666
-                      },
-                      "AbstractView.html#afterRender": {
-                        "ref": "AbstractView.html#afterRender",
-                        "tf": 16.666666666666664
                       }
                     }
                   }
@@ -1595,6 +1684,14 @@
                     "View.html#remove": {
                       "ref": "View.html#remove",
                       "tf": 766.6666666666666
+                    },
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
+                    "View.html#removePermission": {
+                      "ref": "View.html#removePermission",
+                      "tf": 16.666666666666664
                     },
                     "AbstractView.html#remove": {
                       "ref": "AbstractView.html#remove",
@@ -1625,6 +1722,10 @@
                                 "docs": {},
                                 "s": {
                                   "docs": {
+                                    "View.html#removePermission": {
+                                      "ref": "View.html#removePermission",
+                                      "tf": 683.3333333333334
+                                    },
                                     "AbstractView.html#removePermission": {
                                       "ref": "AbstractView.html#removePermission",
                                       "tf": 683.3333333333334
@@ -1641,33 +1742,16 @@
                 }
               }
             },
-            "t": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "AbstractView.html#permissions": {
-                        "ref": "AbstractView.html#permissions",
-                        "tf": 8.333333333333332
-                      },
-                      "AbstractView.html#canDisplay": {
-                        "ref": "AbstractView.html#canDisplay",
-                        "tf": 12.5
-                      }
-                    }
-                  }
-                }
-              }
-            },
             "f": {
               "docs": {},
               "e": {
                 "docs": {},
                 "r": {
                   "docs": {
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
                       "tf": 1.0869565217391304
@@ -1684,6 +1768,10 @@
                   "docs": {},
                   "r": {
                     "docs": {
+                      "View.html#delegateEvents": {
+                        "ref": "View.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      },
                       "AbstractView.html#delegateEvents": {
                         "ref": "AbstractView.html#delegateEvents",
                         "tf": 1.0869565217391304
@@ -1699,9 +1787,38 @@
                 "docs": {},
                 "t": {
                   "docs": {
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 2.5
+                    },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
                       "tf": 2.5
+                    }
+                  }
+                }
+              }
+            },
+            "t": {
+              "docs": {},
+              "u": {
+                "docs": {},
+                "r": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "View.html#canDisplay": {
+                        "ref": "View.html#canDisplay",
+                        "tf": 12.5
+                      },
+                      "AbstractView.html#permissions": {
+                        "ref": "AbstractView.html#permissions",
+                        "tf": 8.333333333333332
+                      },
+                      "AbstractView.html#canDisplay": {
+                        "ref": "AbstractView.html#canDisplay",
+                        "tf": 12.5
+                      }
                     }
                   }
                 }
@@ -1736,6 +1853,14 @@
                 "docs": {},
                 "l": {
                   "docs": {
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 2.5
+                    },
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
                       "tf": 2.5
@@ -1753,6 +1878,14 @@
             "docs": {},
             "t": {
               "docs": {
+                "View.html#permissions": {
+                  "ref": "View.html#permissions",
+                  "tf": 16.666666666666664
+                },
+                "View.html#delegateEvents": {
+                  "ref": "View.html#delegateEvents",
+                  "tf": 3.260869565217391
+                },
                 "AbstractView.html#permissions": {
                   "ref": "AbstractView.html#permissions",
                   "tf": 16.666666666666664
@@ -1766,6 +1899,10 @@
                 "docs": {},
                 "l": {
                   "docs": {
+                    "View.html#setElement": {
+                      "ref": "View.html#setElement",
+                      "tf": 750
+                    },
                     "AbstractView.html#setElement": {
                       "ref": "AbstractView.html#setElement",
                       "tf": 750
@@ -1786,6 +1923,18 @@
                       "docs": {},
                       "r": {
                         "docs": {
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 2.1739130434782608
+                          },
+                          "View.html#delegate": {
+                            "ref": "View.html#delegate",
+                            "tf": 2.5
+                          },
+                          "View.html#undelegate": {
+                            "ref": "View.html#undelegate",
+                            "tf": 4.545454545454546
+                          },
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
                             "tf": 2.1739130434782608
@@ -1816,6 +1965,10 @@
                   "docs": {},
                   "g": {
                     "docs": {
+                      "View.html#delegateEvents": {
+                        "ref": "View.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      },
                       "AbstractView.html#delegateEvents": {
                         "ref": "AbstractView.html#delegateEvents",
                         "tf": 1.0869565217391304
@@ -1840,6 +1993,10 @@
                       "docs": {},
                       "s": {
                         "docs": {
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          },
                           "AbstractView.html#delegateEvents": {
                             "ref": "AbstractView.html#delegateEvents",
                             "tf": 1.0869565217391304
@@ -1856,6 +2013,10 @@
                   "docs": {},
                   "t": {
                     "docs": {
+                      "View.html#delegate": {
+                        "ref": "View.html#delegate",
+                        "tf": 2.5
+                      },
                       "AbstractView.html#delegate": {
                         "ref": "AbstractView.html#delegate",
                         "tf": 2.5
@@ -1872,6 +2033,10 @@
               "docs": {},
               "e": {
                 "docs": {
+                  "View.html#undelegateEvents": {
+                    "ref": "View.html#undelegateEvents",
+                    "tf": 2.941176470588235
+                  },
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
                     "tf": 2.941176470588235
@@ -1911,6 +2076,10 @@
                 "docs": {},
                 "n": {
                   "docs": {
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
                       "tf": 1.0869565217391304
@@ -1928,6 +2097,10 @@
                 "docs": {},
                 "n": {
                   "docs": {
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
                       "tf": 4.545454545454546
@@ -1970,6 +2143,14 @@
                 "docs": {},
                 "r": {
                   "docs": {
+                    "View.html#undelegateEvents": {
+                      "ref": "View.html#undelegateEvents",
+                      "tf": 2.941176470588235
+                    },
+                    "View.html#clearPermissions": {
+                      "ref": "View.html#clearPermissions",
+                      "tf": 16.666666666666664
+                    },
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
                       "tf": 2.941176470588235
@@ -1993,6 +2174,10 @@
                               "docs": {},
                               "s": {
                                 "docs": {
+                                  "View.html#clearPermissions": {
+                                    "ref": "View.html#clearPermissions",
+                                    "tf": 750
+                                  },
                                   "AbstractView.html#clearPermissions": {
                                     "ref": "AbstractView.html#clearPermissions",
                                     "tf": 750
@@ -2042,23 +2227,16 @@
                     "docs": {},
                     "t": {
                       "docs": {
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
                           "tf": 1.0869565217391304
                         }
                       }
                     }
-                  }
-                }
-              }
-            },
-            "d": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractView.html#init": {
-                    "ref": "AbstractView.html#init",
-                    "tf": 10
                   }
                 }
               }
@@ -2082,16 +2260,20 @@
                             "ref": "View.html#render",
                             "tf": 16.666666666666664
                           },
-                          "AbstractView.html#beforeRender": {
-                            "ref": "AbstractView.html#beforeRender",
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 2.1739130434782608
+                          },
+                          "View.html#undelegateEvents": {
+                            "ref": "View.html#undelegateEvents",
+                            "tf": 2.941176470588235
+                          },
+                          "View.html#canDisplay": {
+                            "ref": "View.html#canDisplay",
                             "tf": 12.5
                           },
                           "AbstractView.html#render": {
                             "ref": "AbstractView.html#render",
-                            "tf": 16.666666666666664
-                          },
-                          "AbstractView.html#afterRender": {
-                            "ref": "AbstractView.html#afterRender",
                             "tf": 16.666666666666664
                           },
                           "AbstractView.html#delegateEvents": {
@@ -2129,6 +2311,10 @@
                           "docs": {},
                           "y": {
                             "docs": {
+                              "View.html#canDisplay": {
+                                "ref": "View.html#canDisplay",
+                                "tf": 750
+                              },
                               "AbstractView.html#canDisplay": {
                                 "ref": "AbstractView.html#canDisplay",
                                 "tf": 750
@@ -2136,26 +2322,6 @@
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "u": {
-            "docs": {},
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "m": {
-                    "docs": {
-                      "AbstractView.html#init": {
-                        "ref": "AbstractView.html#init",
-                        "tf": 20
                       }
                     }
                   }
@@ -2171,6 +2337,14 @@
                 "docs": {},
                 "g": {
                   "docs": {
+                    "View.html#setElement": {
+                      "ref": "View.html#setElement",
+                      "tf": 4.545454545454546
+                    },
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 2.5
+                    },
                     "AbstractView.html#setElement": {
                       "ref": "AbstractView.html#setElement",
                       "tf": 4.545454545454546
@@ -2189,6 +2363,10 @@
                 "docs": {},
                 "d": {
                   "docs": {
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 2.5
+                    },
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
                       "tf": 2.5
@@ -2206,6 +2384,10 @@
                 "docs": {},
                 "t": {
                   "docs": {
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
                     "AbstractView.html#delegateEvents": {
                       "ref": "AbstractView.html#delegateEvents",
                       "tf": 1.0869565217391304
@@ -2219,6 +2401,10 @@
             "docs": {},
             "s": {
               "docs": {
+                "View.html#delegateEvents": {
+                  "ref": "View.html#delegateEvents",
+                  "tf": 1.0869565217391304
+                },
                 "AbstractView.html#delegateEvents": {
                   "ref": "AbstractView.html#delegateEvents",
                   "tf": 1.0869565217391304
@@ -2267,6 +2453,14 @@
                   "docs": {},
                   "n": {
                     "docs": {
+                      "View.html#delegate": {
+                        "ref": "View.html#delegate",
+                        "tf": 2.5
+                      },
+                      "View.html#undelegate": {
+                        "ref": "View.html#undelegate",
+                        "tf": 4.545454545454546
+                      },
                       "AbstractView.html#remove": {
                         "ref": "AbstractView.html#remove",
                         "tf": 5
@@ -2306,24 +2500,6 @@
               }
             }
           },
-          "i": {
-            "docs": {},
-            "n": {
-              "docs": {},
-              "d": {
-                "docs": {
-                  "View.html#remove": {
-                    "ref": "View.html#remove",
-                    "tf": 16.666666666666664
-                  },
-                  "AbstractView.html#delegateEvents": {
-                    "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.0869565217391304
-                  }
-                }
-              }
-            }
-          },
           "o": {
             "docs": {},
             "u": {
@@ -2332,6 +2508,18 @@
                 "docs": {},
                 "d": {
                   "docs": {
+                    "View.html#el": {
+                      "ref": "View.html#el",
+                      "tf": 25
+                    },
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 1.0869565217391304
+                    },
+                    "View.html#undelegateEvents": {
+                      "ref": "View.html#undelegateEvents",
+                      "tf": 2.941176470588235
+                    },
                     "AbstractView.html#el": {
                       "ref": "AbstractView.html#el",
                       "tf": 25
@@ -2352,6 +2540,10 @@
               "docs": {},
               "h": {
                 "docs": {
+                  "View.html#undelegate": {
+                    "ref": "View.html#undelegate",
+                    "tf": 4.545454545454546
+                  },
                   "AbstractView.html#undelegate": {
                     "ref": "AbstractView.html#undelegate",
                     "tf": 4.545454545454546
@@ -2360,38 +2552,23 @@
               }
             }
           },
-          "e": {
+          "i": {
             "docs": {},
-            "f": {
+            "n": {
               "docs": {},
-              "o": {
-                "docs": {},
-                "r": {
-                  "docs": {
-                    "AbstractView.html#beforeRender": {
-                      "ref": "AbstractView.html#beforeRender",
-                      "tf": 12.5
-                    }
+              "d": {
+                "docs": {
+                  "View.html#remove": {
+                    "ref": "View.html#remove",
+                    "tf": 16.666666666666664
                   },
-                  "e": {
-                    "docs": {},
-                    "r": {
-                      "docs": {},
-                      "e": {
-                        "docs": {},
-                        "n": {
-                          "docs": {},
-                          "d": {
-                            "docs": {
-                              "AbstractView.html#beforeRender": {
-                                "ref": "AbstractView.html#beforeRender",
-                                "tf": 750
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
+                  "AbstractView.html#delegateEvents": {
+                    "ref": "AbstractView.html#delegateEvents",
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -2403,6 +2580,10 @@
               "docs": {},
               "r": {
                 "docs": {
+                  "View.html#delegate": {
+                    "ref": "View.html#delegate",
+                    "tf": 2.5
+                  },
                   "AbstractView.html#delegate": {
                     "ref": "AbstractView.html#delegate",
                     "tf": 2.5
@@ -2444,6 +2625,10 @@
               "docs": {},
               "h": {
                 "docs": {
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
                     "tf": 1.0869565217391304
@@ -2458,6 +2643,10 @@
               "docs": {},
               "l": {
                 "docs": {
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
                     "tf": 1.0869565217391304
@@ -2491,6 +2680,18 @@
                   "docs": {},
                   "r": {
                     "docs": {
+                      "View.html#el": {
+                        "ref": "View.html#el",
+                        "tf": 110
+                      },
+                      "View.html#name": {
+                        "ref": "View.html#name",
+                        "tf": 110
+                      },
+                      "View.html#permissions": {
+                        "ref": "View.html#permissions",
+                        "tf": 110
+                      },
                       "AbstractView.html#el": {
                         "ref": "AbstractView.html#el",
                         "tf": 110
@@ -2521,6 +2722,10 @@
                     "docs": {},
                     "l": {
                       "docs": {
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
                           "tf": 1.0869565217391304
@@ -2537,6 +2742,10 @@
                 "docs": {},
                 "h": {
                   "docs": {
+                    "View.html#matchesPermission": {
+                      "ref": "View.html#matchesPermission",
+                      "tf": 49.99999999999999
+                    },
                     "AbstractView.html#matchesPermission": {
                       "ref": "AbstractView.html#matchesPermission",
                       "tf": 49.99999999999999
@@ -2560,6 +2769,10 @@
                                   "docs": {},
                                   "s": {
                                     "docs": {
+                                      "View.html#matchesPermission": {
+                                        "ref": "View.html#matchesPermission",
+                                        "tf": 683.3333333333334
+                                      },
                                       "AbstractView.html#matchesPermission": {
                                         "ref": "AbstractView.html#matchesPermission",
                                         "tf": 683.3333333333334
@@ -2590,6 +2803,10 @@
                     "docs": {},
                     "l": {
                       "docs": {
+                        "View.html#undelegateEvents": {
+                          "ref": "View.html#undelegateEvents",
+                          "tf": 2.941176470588235
+                        },
                         "AbstractView.html#undelegateEvents": {
                           "ref": "AbstractView.html#undelegateEvents",
                           "tf": 2.941176470588235
@@ -2614,6 +2831,14 @@
                     "ref": "View.html",
                     "tf": 1914.2857142857142
                   },
+                  "View.html#name": {
+                    "ref": "View.html#name",
+                    "tf": 25
+                  },
+                  "View.html#permissions": {
+                    "ref": "View.html#permissions",
+                    "tf": 16.666666666666664
+                  },
                   "View.html#render": {
                     "ref": "View.html#render",
                     "tf": 16.666666666666664
@@ -2621,6 +2846,34 @@
                   "View.html#remove": {
                     "ref": "View.html#remove",
                     "tf": 16.666666666666664
+                  },
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 2.1739130434782608
+                  },
+                  "View.html#undelegateEvents": {
+                    "ref": "View.html#undelegateEvents",
+                    "tf": 5.88235294117647
+                  },
+                  "View.html#addPermission": {
+                    "ref": "View.html#addPermission",
+                    "tf": 16.666666666666664
+                  },
+                  "View.html#removePermission": {
+                    "ref": "View.html#removePermission",
+                    "tf": 16.666666666666664
+                  },
+                  "View.html#clearPermissions": {
+                    "ref": "View.html#clearPermissions",
+                    "tf": 16.666666666666664
+                  },
+                  "View.html#matchesPermission": {
+                    "ref": "View.html#matchesPermission",
+                    "tf": 16.666666666666664
+                  },
+                  "View.html#canDisplay": {
+                    "ref": "View.html#canDisplay",
+                    "tf": 12.5
                   },
                   "AbstractView.html": {
                     "ref": "AbstractView.html",
@@ -2634,20 +2887,8 @@
                     "ref": "AbstractView.html#permissions",
                     "tf": 8.333333333333332
                   },
-                  "AbstractView.html#initialize": {
-                    "ref": "AbstractView.html#initialize",
-                    "tf": 7.142857142857142
-                  },
-                  "AbstractView.html#beforeRender": {
-                    "ref": "AbstractView.html#beforeRender",
-                    "tf": 12.5
-                  },
                   "AbstractView.html#render": {
                     "ref": "AbstractView.html#render",
-                    "tf": 16.666666666666664
-                  },
-                  "AbstractView.html#afterRender": {
-                    "ref": "AbstractView.html#afterRender",
                     "tf": 16.666666666666664
                   },
                   "AbstractView.html#remove": {
@@ -2685,6 +2926,57 @@
                 },
                 "#": {
                   "docs": {},
+                  "e": {
+                    "docs": {},
+                    "l": {
+                      "docs": {
+                        "View.html#el": {
+                          "ref": "View.html#el",
+                          "tf": 1150
+                        }
+                      }
+                    }
+                  },
+                  "n": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "m": {
+                        "docs": {
+                          "View.html#name": {
+                            "ref": "View.html#name",
+                            "tf": 1150
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "p": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "r": {
+                        "docs": {},
+                        "m": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "s": {
+                              "docs": {},
+                              "s": {
+                                "docs": {
+                                  "View.html#permissions": {
+                                    "ref": "View.html#permissions",
+                                    "tf": 1150
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
                   "r": {
                     "docs": {},
                     "e": {
@@ -2710,6 +3002,296 @@
                                 "ref": "View.html#remove",
                                 "tf": 1150
                               }
+                            },
+                            "e": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "m": {
+                                      "docs": {},
+                                      "i": {
+                                        "docs": {},
+                                        "s": {
+                                          "docs": {},
+                                          "s": {
+                                            "docs": {
+                                              "View.html#removePermission": {
+                                                "ref": "View.html#removePermission",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "s": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "l": {
+                            "docs": {
+                              "View.html#setElement": {
+                                "ref": "View.html#setElement",
+                                "tf": 1150
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "d": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "g": {
+                            "docs": {
+                              "View.html#delegate": {
+                                "ref": "View.html#delegate",
+                                "tf": 1150
+                              }
+                            },
+                            "a": {
+                              "docs": {},
+                              "t": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "v": {
+                                      "docs": {
+                                        "View.html#delegateEvents": {
+                                          "ref": "View.html#delegateEvents",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "u": {
+                    "docs": {},
+                    "n": {
+                      "docs": {},
+                      "d": {
+                        "docs": {},
+                        "e": {
+                          "docs": {},
+                          "l": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "g": {
+                                "docs": {
+                                  "View.html#undelegate": {
+                                    "ref": "View.html#undelegate",
+                                    "tf": 1150
+                                  }
+                                },
+                                "a": {
+                                  "docs": {},
+                                  "t": {
+                                    "docs": {},
+                                    "e": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "v": {
+                                          "docs": {
+                                            "View.html#undelegateEvents": {
+                                              "ref": "View.html#undelegateEvents",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "a": {
+                    "docs": {},
+                    "d": {
+                      "docs": {},
+                      "d": {
+                        "docs": {},
+                        "p": {
+                          "docs": {},
+                          "e": {
+                            "docs": {},
+                            "r": {
+                              "docs": {},
+                              "m": {
+                                "docs": {},
+                                "i": {
+                                  "docs": {},
+                                  "s": {
+                                    "docs": {},
+                                    "s": {
+                                      "docs": {
+                                        "View.html#addPermission": {
+                                          "ref": "View.html#addPermission",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "c": {
+                    "docs": {},
+                    "l": {
+                      "docs": {},
+                      "e": {
+                        "docs": {},
+                        "a": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "p": {
+                              "docs": {},
+                              "e": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "m": {
+                                    "docs": {},
+                                    "i": {
+                                      "docs": {},
+                                      "s": {
+                                        "docs": {},
+                                        "s": {
+                                          "docs": {
+                                            "View.html#clearPermissions": {
+                                              "ref": "View.html#clearPermissions",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "a": {
+                      "docs": {},
+                      "n": {
+                        "docs": {},
+                        "d": {
+                          "docs": {},
+                          "i": {
+                            "docs": {},
+                            "s": {
+                              "docs": {},
+                              "p": {
+                                "docs": {},
+                                "l": {
+                                  "docs": {},
+                                  "a": {
+                                    "docs": {},
+                                    "y": {
+                                      "docs": {
+                                        "View.html#canDisplay": {
+                                          "ref": "View.html#canDisplay",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "m": {
+                    "docs": {},
+                    "a": {
+                      "docs": {},
+                      "t": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "h": {
+                            "docs": {},
+                            "e": {
+                              "docs": {},
+                              "s": {
+                                "docs": {},
+                                "p": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "r": {
+                                      "docs": {},
+                                      "m": {
+                                        "docs": {},
+                                        "i": {
+                                          "docs": {},
+                                          "s": {
+                                            "docs": {},
+                                            "s": {
+                                              "docs": {
+                                                "View.html#matchesPermission": {
+                                                  "ref": "View.html#matchesPermission",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -2719,6 +3301,14 @@
                 },
                 "'": {
                   "docs": {
+                    "View.html#setElement": {
+                      "ref": "View.html#setElement",
+                      "tf": 9.090909090909092
+                    },
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 2.5
+                    },
                     "AbstractView.html#setElement": {
                       "ref": "AbstractView.html#setElement",
                       "tf": 9.090909090909092
@@ -2726,6 +3316,203 @@
                     "AbstractView.html#delegate": {
                       "ref": "AbstractView.html#delegate",
                       "tf": 2.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "e": {
+          "docs": {},
+          "l": {
+            "docs": {
+              "View.html#el": {
+                "ref": "View.html#el",
+                "tf": 750
+              },
+              "View.html#delegateEvents": {
+                "ref": "View.html#delegateEvents",
+                "tf": 2.1739130434782608
+              },
+              "AbstractView.html#el": {
+                "ref": "AbstractView.html#el",
+                "tf": 750
+              },
+              "AbstractView.html#delegateEvents": {
+                "ref": "AbstractView.html#delegateEvents",
+                "tf": 2.1739130434782608
+              }
+            },
+            "e": {
+              "docs": {},
+              "m": {
+                "docs": {},
+                "e": {
+                  "docs": {},
+                  "n": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "View.html#el": {
+                          "ref": "View.html#el",
+                          "tf": 25
+                        },
+                        "View.html#setElement": {
+                          "ref": "View.html#setElement",
+                          "tf": 9.090909090909092
+                        },
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        },
+                        "View.html#delegate": {
+                          "ref": "View.html#delegate",
+                          "tf": 5
+                        },
+                        "View.html#undelegateEvents": {
+                          "ref": "View.html#undelegateEvents",
+                          "tf": 2.941176470588235
+                        },
+                        "AbstractView.html#el": {
+                          "ref": "AbstractView.html#el",
+                          "tf": 25
+                        },
+                        "AbstractView.html#remove": {
+                          "ref": "AbstractView.html#remove",
+                          "tf": 5
+                        },
+                        "AbstractView.html#setElement": {
+                          "ref": "AbstractView.html#setElement",
+                          "tf": 9.090909090909092
+                        },
+                        "AbstractView.html#delegateEvents": {
+                          "ref": "AbstractView.html#delegateEvents",
+                          "tf": 1.0869565217391304
+                        },
+                        "AbstractView.html#delegate": {
+                          "ref": "AbstractView.html#delegate",
+                          "tf": 5
+                        },
+                        "AbstractView.html#undelegateEvents": {
+                          "ref": "AbstractView.html#undelegateEvents",
+                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "v": {
+            "docs": {},
+            "e": {
+              "docs": {},
+              "n": {
+                "docs": {},
+                "t": {
+                  "docs": {
+                    "View.html#setElement": {
+                      "ref": "View.html#setElement",
+                      "tf": 4.545454545454546
+                    },
+                    "View.html#delegateEvents": {
+                      "ref": "View.html#delegateEvents",
+                      "tf": 2.1739130434782608
+                    },
+                    "View.html#delegate": {
+                      "ref": "View.html#delegate",
+                      "tf": 5
+                    },
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
+                    "AbstractView.html#remove": {
+                      "ref": "AbstractView.html#remove",
+                      "tf": 5
+                    },
+                    "AbstractView.html#setElement": {
+                      "ref": "AbstractView.html#setElement",
+                      "tf": 4.545454545454546
+                    },
+                    "AbstractView.html#delegateEvents": {
+                      "ref": "AbstractView.html#delegateEvents",
+                      "tf": 2.1739130434782608
+                    },
+                    "AbstractView.html#delegate": {
+                      "ref": "AbstractView.html#delegate",
+                      "tf": 5
+                    },
+                    "AbstractView.html#undelegate": {
+                      "ref": "AbstractView.html#undelegate",
+                      "tf": 4.545454545454546
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "f": {
+            "docs": {},
+            "f": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "c": {
+                  "docs": {},
+                  "i": {
+                    "docs": {
+                      "View.html#delegateEvents": {
+                        "ref": "View.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      },
+                      "AbstractView.html#delegateEvents": {
+                        "ref": "AbstractView.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "x": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "r": {
+                    "docs": {
+                      "View.html#delegate": {
+                        "ref": "View.html#delegate",
+                        "tf": 2.5
+                      },
+                      "AbstractView.html#delegate": {
+                        "ref": "AbstractView.html#delegate",
+                        "tf": 2.5
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "c": {
+              "docs": {},
+              "l": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "d": {
+                    "docs": {
+                      "AbstractView.html#permissions": {
+                        "ref": "AbstractView.html#permissions",
+                        "tf": 8.333333333333332
+                      }
                     }
                   }
                 }
@@ -2757,24 +3544,48 @@
                             "ref": "View.html#remove",
                             "tf": 110
                           },
-                          "AbstractView.html#init": {
-                            "ref": "AbstractView.html#init",
+                          "View.html#setElement": {
+                            "ref": "View.html#setElement",
                             "tf": 110
                           },
-                          "AbstractView.html#initialize": {
-                            "ref": "AbstractView.html#initialize",
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
                             "tf": 110
                           },
-                          "AbstractView.html#beforeRender": {
-                            "ref": "AbstractView.html#beforeRender",
+                          "View.html#delegate": {
+                            "ref": "View.html#delegate",
+                            "tf": 110
+                          },
+                          "View.html#undelegateEvents": {
+                            "ref": "View.html#undelegateEvents",
+                            "tf": 110
+                          },
+                          "View.html#undelegate": {
+                            "ref": "View.html#undelegate",
+                            "tf": 110
+                          },
+                          "View.html#addPermission": {
+                            "ref": "View.html#addPermission",
+                            "tf": 110
+                          },
+                          "View.html#removePermission": {
+                            "ref": "View.html#removePermission",
+                            "tf": 110
+                          },
+                          "View.html#clearPermissions": {
+                            "ref": "View.html#clearPermissions",
+                            "tf": 110
+                          },
+                          "View.html#matchesPermission": {
+                            "ref": "View.html#matchesPermission",
+                            "tf": 110
+                          },
+                          "View.html#canDisplay": {
+                            "ref": "View.html#canDisplay",
                             "tf": 110
                           },
                           "AbstractView.html#render": {
                             "ref": "AbstractView.html#render",
-                            "tf": 110
-                          },
-                          "AbstractView.html#afterRender": {
-                            "ref": "AbstractView.html#afterRender",
                             "tf": 110
                           },
                           "AbstractView.html#remove": {
@@ -2831,6 +3642,21 @@
           },
           "o": {
             "docs": {},
+            "c": {
+              "docs": {},
+              "u": {
+                "docs": {
+                  "View.html#delegate": {
+                    "ref": "View.html#delegate",
+                    "tf": 2.5
+                  },
+                  "AbstractView.html#delegate": {
+                    "ref": "AbstractView.html#delegate",
+                    "tf": 2.5
+                  }
+                }
+              }
+            },
             "r": {
               "docs": {},
               "m": {
@@ -2847,17 +3673,6 @@
                   }
                 }
               }
-            },
-            "c": {
-              "docs": {},
-              "u": {
-                "docs": {
-                  "AbstractView.html#delegate": {
-                    "ref": "AbstractView.html#delegate",
-                    "tf": 2.5
-                  }
-                }
-              }
             }
           },
           "i": {
@@ -2868,6 +3683,10 @@
                 "docs": {},
                 "r": {
                   "docs": {
+                    "View.html#undelegate": {
+                      "ref": "View.html#undelegate",
+                      "tf": 4.545454545454546
+                    },
                     "AbstractView.html#undelegate": {
                       "ref": "AbstractView.html#undelegate",
                       "tf": 4.545454545454546
@@ -2878,52 +3697,83 @@
             }
           }
         },
-        "e": {
+        "t": {
           "docs": {},
-          "l": {
-            "docs": {
-              "AbstractView.html#el": {
-                "ref": "AbstractView.html#el",
-                "tf": 750
-              },
-              "AbstractView.html#delegateEvents": {
-                "ref": "AbstractView.html#delegateEvents",
-                "tf": 2.1739130434782608
-              }
-            },
-            "e": {
+          "h": {
+            "docs": {},
+            "i": {
               "docs": {},
-              "m": {
+              "s": {
                 "docs": {},
-                "e": {
+                ".": {
                   "docs": {},
-                  "n": {
+                  "e": {
                     "docs": {},
-                    "t": {
+                    "l": {
                       "docs": {
-                        "AbstractView.html#el": {
-                          "ref": "AbstractView.html#el",
-                          "tf": 25
+                        "View.html#setElement": {
+                          "ref": "View.html#setElement",
+                          "tf": 4.545454545454546
                         },
-                        "AbstractView.html#remove": {
-                          "ref": "AbstractView.html#remove",
-                          "tf": 5
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 2.1739130434782608
                         },
                         "AbstractView.html#setElement": {
                           "ref": "AbstractView.html#setElement",
-                          "tf": 9.090909090909092
+                          "tf": 4.545454545454546
+                        },
+                        "AbstractView.html#delegateEvents": {
+                          "ref": "AbstractView.html#delegateEvents",
+                          "tf": 2.1739130434782608
+                        }
+                      }
+                    },
+                    "v": {
+                      "docs": {
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 1.0869565217391304
                         },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
                           "tf": 1.0869565217391304
-                        },
-                        "AbstractView.html#delegate": {
-                          "ref": "AbstractView.html#delegate",
-                          "tf": 5
-                        },
-                        "AbstractView.html#undelegateEvents": {
-                          "ref": "AbstractView.html#undelegateEvents",
-                          "tf": 2.941176470588235
+                        }
+                      }
+                    }
+                  },
+                  "$": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          },
+                          "AbstractView.html#delegateEvents": {
+                            "ref": "AbstractView.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "_": {
+                    "docs": {},
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {
+                          "View.html#delegateEvents": {
+                            "ref": "View.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          },
+                          "AbstractView.html#delegateEvents": {
+                            "ref": "AbstractView.html#delegateEvents",
+                            "tf": 1.0869565217391304
+                          }
                         }
                       }
                     }
@@ -2932,86 +3782,37 @@
               }
             }
           },
-          "x": {
+          "a": {
             "docs": {},
-            "c": {
+            "k": {
               "docs": {},
-              "l": {
-                "docs": {},
-                "u": {
-                  "docs": {},
-                  "d": {
-                    "docs": {
-                      "AbstractView.html#permissions": {
-                        "ref": "AbstractView.html#permissions",
-                        "tf": 8.333333333333332
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "p": {
-              "docs": {},
-              "l": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "AbstractView.html#delegate": {
-                        "ref": "AbstractView.html#delegate",
-                        "tf": 2.5
-                      }
-                    }
+              "e": {
+                "docs": {
+                  "AbstractView.html#remove": {
+                    "ref": "AbstractView.html#remove",
+                    "tf": 5
                   }
                 }
               }
             }
-          },
-          "v": {
+          }
+        },
+        "j": {
+          "docs": {},
+          "q": {
             "docs": {},
-            "e": {
+            "u": {
               "docs": {},
-              "n": {
+              "e": {
                 "docs": {},
-                "t": {
-                  "docs": {
-                    "AbstractView.html#remove": {
-                      "ref": "AbstractView.html#remove",
-                      "tf": 5
-                    },
-                    "AbstractView.html#setElement": {
-                      "ref": "AbstractView.html#setElement",
-                      "tf": 4.545454545454546
-                    },
-                    "AbstractView.html#delegateEvents": {
-                      "ref": "AbstractView.html#delegateEvents",
-                      "tf": 2.1739130434782608
-                    },
-                    "AbstractView.html#delegate": {
-                      "ref": "AbstractView.html#delegate",
-                      "tf": 5
-                    },
-                    "AbstractView.html#undelegate": {
-                      "ref": "AbstractView.html#undelegate",
-                      "tf": 4.545454545454546
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "f": {
-            "docs": {},
-            "f": {
-              "docs": {},
-              "i": {
-                "docs": {},
-                "c": {
+                "r": {
                   "docs": {},
                   "i": {
                     "docs": {
+                      "View.html#delegateEvents": {
+                        "ref": "View.html#delegateEvents",
+                        "tf": 1.0869565217391304
+                      },
                       "AbstractView.html#delegateEvents": {
                         "ref": "AbstractView.html#delegateEvents",
                         "tf": 1.0869565217391304
@@ -3025,29 +3826,19 @@
         },
         "o": {
           "docs": {},
-          "p": {
+          "m": {
             "docs": {},
-            "t": {
+            "i": {
               "docs": {},
-              "i": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "n": {
-                    "docs": {
-                      "AbstractView.html#init": {
-                        "ref": "AbstractView.html#init",
-                        "tf": 50
-                      },
-                      "AbstractView.html#initialize": {
-                        "ref": "AbstractView.html#initialize",
-                        "tf": 50
-                      },
-                      "AbstractView.html#undelegate": {
-                        "ref": "AbstractView.html#undelegate",
-                        "tf": 4.545454545454546
-                      }
-                    }
+              "t": {
+                "docs": {
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
+                  "AbstractView.html#delegateEvents": {
+                    "ref": "AbstractView.html#delegateEvents",
+                    "tf": 1.0869565217391304
                   }
                 }
               }
@@ -3065,18 +3856,38 @@
                     "docs": {},
                     "d": {
                       "docs": {
-                        "AbstractView.html#init": {
-                          "ref": "AbstractView.html#init",
-                          "tf": 10
-                        },
-                        "AbstractView.html#initialize": {
-                          "ref": "AbstractView.html#initialize",
-                          "tf": 7.142857142857142
+                        "View.html#delegateEvents": {
+                          "ref": "View.html#delegateEvents",
+                          "tf": 1.0869565217391304
                         },
                         "AbstractView.html#delegateEvents": {
                           "ref": "AbstractView.html#delegateEvents",
                           "tf": 1.0869565217391304
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "p": {
+            "docs": {},
+            "t": {
+              "docs": {},
+              "i": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "n": {
+                    "docs": {
+                      "View.html#undelegate": {
+                        "ref": "View.html#undelegate",
+                        "tf": 4.545454545454546
+                      },
+                      "AbstractView.html#undelegate": {
+                        "ref": "AbstractView.html#undelegate",
+                        "tf": 4.545454545454546
                       }
                     }
                   }
@@ -3094,29 +3905,23 @@
                 }
               }
             }
-          },
-          "m": {
-            "docs": {},
-            "i": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "AbstractView.html#delegateEvents": {
-                    "ref": "AbstractView.html#delegateEvents",
-                    "tf": 1.0869565217391304
-                  }
-                }
-              }
-            }
           }
         },
         "u": {
           "docs": {},
           "s": {
             "docs": {
-              "AbstractView.html#initialize": {
-                "ref": "AbstractView.html#initialize",
-                "tf": 7.142857142857142
+              "View.html#delegateEvents": {
+                "ref": "View.html#delegateEvents",
+                "tf": 2.1739130434782608
+              },
+              "View.html#delegate": {
+                "ref": "View.html#delegate",
+                "tf": 2.5
+              },
+              "View.html#undelegateEvents": {
+                "ref": "View.html#undelegateEvents",
+                "tf": 2.941176470588235
               },
               "AbstractView.html#delegateEvents": {
                 "ref": "AbstractView.html#delegateEvents",
@@ -3137,6 +3942,10 @@
                 "docs": {},
                 "l": {
                   "docs": {
+                    "View.html#undelegateEvents": {
+                      "ref": "View.html#undelegateEvents",
+                      "tf": 2.941176470588235
+                    },
                     "AbstractView.html#undelegateEvents": {
                       "ref": "AbstractView.html#undelegateEvents",
                       "tf": 2.941176470588235
@@ -3152,6 +3961,10 @@
               "docs": {},
               "l": {
                 "docs": {
+                  "View.html#delegateEvents": {
+                    "ref": "View.html#delegateEvents",
+                    "tf": 1.0869565217391304
+                  },
                   "AbstractView.html#delegateEvents": {
                     "ref": "AbstractView.html#delegateEvents",
                     "tf": 1.0869565217391304
@@ -3172,6 +3985,10 @@
                     "docs": {},
                     "g": {
                       "docs": {
+                        "View.html#undelegate": {
+                          "ref": "View.html#undelegate",
+                          "tf": 750
+                        },
                         "AbstractView.html#undelegate": {
                           "ref": "AbstractView.html#undelegate",
                           "tf": 750
@@ -3187,6 +4004,14 @@
                               "docs": {},
                               "v": {
                                 "docs": {
+                                  "View.html#undelegateEvents": {
+                                    "ref": "View.html#undelegateEvents",
+                                    "tf": 750
+                                  },
+                                  "View.html#undelegate": {
+                                    "ref": "View.html#undelegate",
+                                    "tf": 4.545454545454546
+                                  },
                                   "AbstractView.html#undelegateEvents": {
                                     "ref": "AbstractView.html#undelegateEvents",
                                     "tf": 750
@@ -3208,109 +4033,6 @@
             }
           }
         },
-        "t": {
-          "docs": {},
-          "a": {
-            "docs": {},
-            "k": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "AbstractView.html#remove": {
-                    "ref": "AbstractView.html#remove",
-                    "tf": 5
-                  }
-                }
-              }
-            }
-          },
-          "h": {
-            "docs": {},
-            "i": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                ".": {
-                  "docs": {},
-                  "e": {
-                    "docs": {},
-                    "l": {
-                      "docs": {
-                        "AbstractView.html#setElement": {
-                          "ref": "AbstractView.html#setElement",
-                          "tf": 4.545454545454546
-                        },
-                        "AbstractView.html#delegateEvents": {
-                          "ref": "AbstractView.html#delegateEvents",
-                          "tf": 2.1739130434782608
-                        }
-                      }
-                    },
-                    "v": {
-                      "docs": {
-                        "AbstractView.html#delegateEvents": {
-                          "ref": "AbstractView.html#delegateEvents",
-                          "tf": 1.0869565217391304
-                        }
-                      }
-                    }
-                  },
-                  "$": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {
-                          "AbstractView.html#delegateEvents": {
-                            "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.0869565217391304
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "_": {
-                    "docs": {},
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {
-                          "AbstractView.html#delegateEvents": {
-                            "ref": "AbstractView.html#delegateEvents",
-                            "tf": 1.0869565217391304
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "j": {
-          "docs": {},
-          "q": {
-            "docs": {},
-            "u": {
-              "docs": {},
-              "e": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "i": {
-                    "docs": {
-                      "AbstractView.html#delegateEvents": {
-                        "ref": "AbstractView.html#delegateEvents",
-                        "tf": 1.0869565217391304
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
         "w": {
           "docs": {},
           "o": {
@@ -3319,6 +4041,10 @@
               "docs": {},
               "k": {
                 "docs": {
+                  "View.html#delegate": {
+                    "ref": "View.html#delegate",
+                    "tf": 2.5
+                  },
                   "AbstractView.html#delegate": {
                     "ref": "AbstractView.html#delegate",
                     "tf": 2.5
@@ -3333,6 +4059,10 @@
               "docs": {},
               "h": {
                 "docs": {
+                  "View.html#undelegateEvents": {
+                    "ref": "View.html#undelegateEvents",
+                    "tf": 2.941176470588235
+                  },
                   "AbstractView.html#undelegateEvents": {
                     "ref": "AbstractView.html#undelegateEvents",
                     "tf": 2.941176470588235
@@ -3343,20 +4073,16 @@
           }
         }
       },
-      "length": 247
+      "length": 369
     },
     "corpusTokens": [
       "abstractview",
       "abstractview#addpermiss",
-      "abstractview#afterrend",
-      "abstractview#beforerend",
       "abstractview#candisplay",
       "abstractview#clearpermiss",
       "abstractview#deleg",
       "abstractview#delegateev",
       "abstractview#el",
-      "abstractview#init",
-      "abstractview#initi",
       "abstractview#matchespermiss",
       "abstractview#nam",
       "abstractview#permiss",
@@ -3368,7 +4094,6 @@
       "abstractview#undelegateev",
       "add",
       "addpermiss",
-      "afterrend",
       "altern",
       "api",
       "applic",
@@ -3376,8 +4101,6 @@
       "aubstract",
       "augmented.j",
       "base",
-      "befor",
-      "beforerend",
       "bind",
       "blur",
       "both",
@@ -3389,12 +4112,10 @@
       "class",
       "clear",
       "clearpermiss",
-      "code",
       "concept",
       "context",
       "creat",
       "css",
-      "custom",
       "deleg",
       "delegateev",
       "develop",
@@ -3420,9 +4141,6 @@
       "html",
       "includ",
       "index",
-      "init",
-      "initi",
-      "instead",
       "internet",
       "jqueri",
       "list",
@@ -3439,7 +4157,6 @@
       "neg",
       "new",
       "next",
-      "note",
       "omit",
       "option",
       "out",
@@ -3479,8 +4196,21 @@
       "usual",
       "util",
       "view",
+      "view#addpermiss",
+      "view#candisplay",
+      "view#clearpermiss",
+      "view#deleg",
+      "view#delegateev",
+      "view#el",
+      "view#matchespermiss",
+      "view#nam",
+      "view#permiss",
       "view#remov",
+      "view#removepermiss",
       "view#rend",
+      "view#setel",
+      "view#undeleg",
+      "view#undelegateev",
       "view'",
       "wish",
       "work"
@@ -3536,6 +4266,36 @@
       "description": "View - the base view for handlng display in the MV* Concept",
       "body": ""
     },
+    "View.html#el": {
+      "id": "View.html#el",
+      "kind": "member",
+      "title": "el",
+      "longname": "View#el",
+      "name": "el",
+      "tags": "View#el el",
+      "summary": "",
+      "description": "The element bound"
+    },
+    "View.html#name": {
+      "id": "View.html#name",
+      "kind": "member",
+      "title": "name",
+      "longname": "View#name",
+      "name": "name",
+      "tags": "View#name name",
+      "summary": "",
+      "description": "The name of the view"
+    },
+    "View.html#permissions": {
+      "id": "View.html#permissions",
+      "kind": "member",
+      "title": "permissions",
+      "longname": "View#permissions",
+      "name": "permissions",
+      "tags": "View#permissions permissions",
+      "summary": "",
+      "description": "Sets the permissions to the view"
+    },
     "View.html#render": {
       "id": "View.html#render",
       "kind": "function",
@@ -3555,6 +4315,106 @@
       "tags": "View#remove remove",
       "summary": "",
       "description": "Remove the view and all binds"
+    },
+    "View.html#setElement": {
+      "id": "View.html#setElement",
+      "kind": "function",
+      "title": "setElement()",
+      "longname": "View#setElement",
+      "name": "setElement",
+      "tags": "View#setElement setElement",
+      "summary": "",
+      "description": "Change the view's element (this.el property) and re-delegate the view's events on the new element."
+    },
+    "View.html#delegateEvents": {
+      "id": "View.html#delegateEvents",
+      "kind": "function",
+      "title": "delegateEvents()",
+      "longname": "View#delegateEvents",
+      "name": "delegateEvents",
+      "tags": "View#delegateEvents delegateEvents",
+      "summary": "",
+      "description": "Creates the this.el and this.$el references for this view using the given el. el can be a CSS selector or an HTML string, a jQuery context or an element. Subclasses can override this to utilize an alternative DOM manipulation API and are only required to set the this.el property. Set callbacks, where this.events is a hash of pairs. Callbacks will be bound to the view, with this set properly. Uses event delegation for efficiency. Omitting the selector binds the event to this._el."
+    },
+    "View.html#delegate": {
+      "id": "View.html#delegate",
+      "kind": "function",
+      "title": "delegate()",
+      "longname": "View#delegate",
+      "name": "delegate",
+      "tags": "View#delegate delegate",
+      "summary": "",
+      "description": "Add a single event listener to the view's element (or a child element using selector). This only works for delegate-able events: not focus, blur, and not change, submit, and reset in Internet Explorer."
+    },
+    "View.html#undelegateEvents": {
+      "id": "View.html#undelegateEvents",
+      "kind": "function",
+      "title": "undelegateEvents()",
+      "longname": "View#undelegateEvents",
+      "name": "undelegateEvents",
+      "tags": "View#undelegateEvents undelegateEvents",
+      "summary": "",
+      "description": "Clears all callbacks previously bound to the view by delegateEvents. You usually don't need to use this, but may wish to if you have multiple views attached to the same DOM element."
+    },
+    "View.html#undelegate": {
+      "id": "View.html#undelegate",
+      "kind": "function",
+      "title": "undelegate()",
+      "longname": "View#undelegate",
+      "name": "undelegate",
+      "tags": "View#undelegate undelegate",
+      "summary": "",
+      "description": "A finer-grained undelegateEvents for removing a single delegated event. selector and listener are both optional."
+    },
+    "View.html#addPermission": {
+      "id": "View.html#addPermission",
+      "kind": "function",
+      "title": "addPermission( permission, negative )",
+      "longname": "View#addPermission",
+      "name": "addPermission",
+      "tags": "View#addPermission addPermission",
+      "summary": "",
+      "description": "Adds a permission to the view"
+    },
+    "View.html#removePermission": {
+      "id": "View.html#removePermission",
+      "kind": "function",
+      "title": "removePermission( permission, negative )",
+      "longname": "View#removePermission",
+      "name": "removePermission",
+      "tags": "View#removePermission removePermission",
+      "summary": "",
+      "description": "Removes a permission to the view"
+    },
+    "View.html#clearPermissions": {
+      "id": "View.html#clearPermissions",
+      "kind": "function",
+      "title": "clearPermissions()",
+      "longname": "View#clearPermissions",
+      "name": "clearPermissions",
+      "tags": "View#clearPermissions clearPermissions",
+      "summary": "",
+      "description": "Clears the permissions in the view"
+    },
+    "View.html#matchesPermission": {
+      "id": "View.html#matchesPermission",
+      "kind": "function",
+      "title": "matchesPermission( match, negative )",
+      "longname": "View#matchesPermission",
+      "name": "matchesPermission",
+      "tags": "View#matchesPermission matchesPermission",
+      "summary": "",
+      "description": "Matches a permission in the view"
+    },
+    "View.html#canDisplay": {
+      "id": "View.html#canDisplay",
+      "kind": "function",
+      "title": "canDisplay()",
+      "longname": "View#canDisplay",
+      "name": "canDisplay",
+      "tags": "View#canDisplay canDisplay",
+      "summary": "",
+      "description": "Callback to return if this view can display"
     },
     "AbstractView.html": {
       "id": "AbstractView.html",
@@ -3597,36 +4457,6 @@
       "summary": "",
       "description": "The permissions to the view Return format: { include: [], exclude: [] }"
     },
-    "AbstractView.html#init": {
-      "id": "AbstractView.html#init",
-      "kind": "function",
-      "title": "init( options )",
-      "longname": "AbstractView#init",
-      "name": "init",
-      "tags": "AbstractView#init init",
-      "summary": "",
-      "description": "Custom initialize - Override for custom code"
-    },
-    "AbstractView.html#initialize": {
-      "id": "AbstractView.html#initialize",
-      "kind": "function",
-      "title": "initialize( options )",
-      "longname": "AbstractView#initialize",
-      "name": "initialize",
-      "tags": "AbstractView#initialize initialize",
-      "summary": "",
-      "description": "Initializes the view - Note: Do not override, use init instead!"
-    },
-    "AbstractView.html#beforeRender": {
-      "id": "AbstractView.html#beforeRender",
-      "kind": "function",
-      "title": "beforeRender()",
-      "longname": "AbstractView#beforeRender",
-      "name": "beforeRender",
-      "tags": "AbstractView#beforeRender beforeRender",
-      "summary": "",
-      "description": "Before Render callback for the view"
-    },
     "AbstractView.html#render": {
       "id": "AbstractView.html#render",
       "kind": "function",
@@ -3636,16 +4466,6 @@
       "tags": "AbstractView#render render",
       "summary": "",
       "description": "Render callback for the view"
-    },
-    "AbstractView.html#afterRender": {
-      "id": "AbstractView.html#afterRender",
-      "kind": "function",
-      "title": "afterRender()",
-      "longname": "AbstractView#afterRender",
-      "name": "afterRender",
-      "tags": "AbstractView#afterRender afterRender",
-      "summary": "",
-      "description": "After Render callback for the view"
     },
     "AbstractView.html#remove": {
       "id": "AbstractView.html#remove",

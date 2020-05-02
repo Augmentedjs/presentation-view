@@ -92,7 +92,7 @@ class AbstractView extends AugmentedObject {
     } else {
       this.template = "";
     }
-    this.initialize(options);
+    this.options = options;
   };
 
   /**
@@ -120,42 +120,10 @@ class AbstractView extends AugmentedObject {
    };
 
   /**
-   * Custom initialize - Override for custom code
-   * @param {object} options Optional options to pass to the view
-   */
-  init(options) {
-  };
-  /**
-   * Initializes the view - <em>Note: Do not override, use init instead!</em>
-   * @param {object} options Optional options to pass to the view
-   * @returns {View} Returns 'this,' as in, this view context
-   */
-  initialize(options) {
-    this.options = options;
-    this.init(options);
-    return this;
-  };
-  /**
-   * Before Render callback for the view
-   * @returns this Context of the view
-   * @deprecated
-   */
-  beforeRender() {
-    return this;
-  };
-  /**
    * Render callback for the view
    * @returns this Context of the view
    */
   render() {
-    return this;
-  };
-  /**
-   * After Render callback for the view
-   * @returns this Context of the view
-   * @deprecated
-   */
-  afterRender() {
     return this;
   };
 
@@ -424,7 +392,6 @@ class AbstractView extends AugmentedObject {
     }*/
     this._permissions = permissions;
   };
-
 
   /**
    * The permissions to the view<br/>

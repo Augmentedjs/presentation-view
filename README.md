@@ -15,42 +15,36 @@ Augmented.js Presentation View Module
 -   [AbstractView](#abstractview)
     -   [Parameters](#parameters-1)
     -   [el](#el)
-    -   [init](#init)
-        -   [Parameters](#parameters-2)
-    -   [initialize](#initialize)
-        -   [Parameters](#parameters-3)
-    -   [beforeRender](#beforerender)
     -   [render](#render-1)
-    -   [afterRender](#afterrender)
     -   [remove](#remove-1)
     -   [setElement](#setelement)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-2)
     -   [delegateEvents](#delegateevents)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-3)
         -   [Examples](#examples)
     -   [delegate](#delegate)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-4)
     -   [undelegateEvents](#undelegateevents)
     -   [undelegate](#undelegate)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-5)
     -   [name](#name)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-6)
     -   [addPermission](#addpermission)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-7)
     -   [removePermission](#removepermission)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-8)
     -   [permissions](#permissions)
-        -   [Parameters](#parameters-11)
+        -   [Parameters](#parameters-9)
     -   [permissions](#permissions-1)
         -   [Properties](#properties)
     -   [clearPermissions](#clearpermissions)
     -   [matchesPermission](#matchespermission)
-        -   [Parameters](#parameters-12)
+        -   [Parameters](#parameters-10)
     -   [canDisplay](#candisplay)
 
 ## View
 
-**Extends Presentation.AbstractView**
+**Extends AbstractView**
 
 View - the base view for handlng display in the MV\* Concept
 
@@ -82,51 +76,11 @@ Aubstract View - the base view for handlng display in the MV\* Concept
 
 The element bound
 
-### init
-
-Custom initialize - Override for custom code
-
-#### Parameters
-
--   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Optional options to pass to the view
-
-### initialize
-
-Initializes the view - <em>Note: Do not override, use init instead!</em>
-
-#### Parameters
-
--   `options` **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** Optional options to pass to the view
-
-Returns **[View](#view)** Returns 'this,' as in, this view context
-
-### beforeRender
-
-Before Render callback for the view
-
-Returns **any** this Context of the view
-
-**Meta**
-
--   **deprecated**: This is deprecated.
-
-
 ### render
 
 Render callback for the view
 
 Returns **any** this Context of the view
-
-### afterRender
-
-After Render callback for the view
-
-Returns **any** this Context of the view
-
-**Meta**
-
--   **deprecated**: This is deprecated.
-
 
 ### remove
 

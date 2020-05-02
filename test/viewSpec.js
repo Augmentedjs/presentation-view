@@ -42,18 +42,6 @@ describe("Given an Augmented View", () => {
       expect(v).to.not.be.undefined;
     });
 
-    xit("supports beforeRender when attempting a render", () => {
-      view.beforeRender = () => { fired = true; };
-      view.render();
-      expect(fired).to.be.true;
-    });
-
-    xit("supports afterRender when attempting a render", () => {
-      view.afterRender = () => { fired = true; };
-      view.render();
-      expect(fired).to.be.true;
-    });
-
     it("supports correct \"this\" when overriding a render", () => {
       view.monkey = "monkey";
       const that = view;
@@ -110,18 +98,6 @@ describe("Given an Augmented View", () => {
       expect(view.canDisplay()).to.be.true;
     });
 
-    xit("supports beforeRender when attempting a render", () => {
-      view.beforeRender = () => { fired = true; };
-      view.render();
-      expect(fired).to.be.true;
-    });
-
-    xit("supports afterRender when attempting a render", () => {
-      view.afterRender = () => { fired = true; };
-      view.render();
-      expect(fired).to.be.true;
-    });
-
     // defect fixs
     it("supports correct \"this\" when overriding a render", () => {
       view.monkey = "monkey";
@@ -130,19 +106,6 @@ describe("Given an Augmented View", () => {
         fired = ((that !== window) && (that.monkey === "monkey"));
       };
       view.render();
-      expect(fired).to.be.true;
-    });
-
-    xit("supports beforeRender, render, then afterRender when attempting a render", () => {
-      view.r = 0;
-      view.beforeRender = () => { view.r++; };
-      view.render = () => {
-        view.r++;
-        fired = true;
-      };
-      view.afterRender = () => { view.r++; };
-      view.render();
-      expect(view.r).to.equal(1);
       expect(fired).to.be.true;
     });
 
