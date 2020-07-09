@@ -25,19 +25,19 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/register": "^7.9.0",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
-    "documentation": "^12.3.0",
+    "documentation": "^13.0.2",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.4",
     "jsdom": "^16.2.2",
-    "mocha": "^7.1.2",
+    "mocha": "^8.0.1",
     "mocha-jsdom": "^2.0.0",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "lodash.bind": "^4.2.1",
