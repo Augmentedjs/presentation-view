@@ -8,59 +8,39 @@ Augmented.js Presentation View Module
 
 ### Table of Contents
 
--   [View](#view)
+-   [AbstractView](#abstractview)
     -   [Parameters](#parameters)
+    -   [el](#el)
     -   [render](#render)
     -   [remove](#remove)
--   [AbstractView](#abstractview)
-    -   [Parameters](#parameters-1)
-    -   [el](#el)
-    -   [render](#render-1)
-    -   [remove](#remove-1)
     -   [setElement](#setelement)
-        -   [Parameters](#parameters-2)
+        -   [Parameters](#parameters-1)
     -   [delegateEvents](#delegateevents)
-        -   [Parameters](#parameters-3)
+        -   [Parameters](#parameters-2)
         -   [Examples](#examples)
     -   [delegate](#delegate)
-        -   [Parameters](#parameters-4)
+        -   [Parameters](#parameters-3)
     -   [undelegateEvents](#undelegateevents)
     -   [undelegate](#undelegate)
-        -   [Parameters](#parameters-5)
+        -   [Parameters](#parameters-4)
     -   [name](#name)
-        -   [Parameters](#parameters-6)
+        -   [Parameters](#parameters-5)
     -   [addPermission](#addpermission)
-        -   [Parameters](#parameters-7)
+        -   [Parameters](#parameters-6)
     -   [removePermission](#removepermission)
-        -   [Parameters](#parameters-8)
+        -   [Parameters](#parameters-7)
     -   [permissions](#permissions)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-8)
     -   [permissions](#permissions-1)
         -   [Properties](#properties)
     -   [clearPermissions](#clearpermissions)
     -   [matchesPermission](#matchespermission)
-        -   [Parameters](#parameters-10)
+        -   [Parameters](#parameters-9)
     -   [canDisplay](#candisplay)
-
-## View
-
-**Extends AbstractView**
-
-View - the base view for handlng display in the MV\* Concept
-
-### Parameters
-
--   `options`  
-
-### render
-
-Render callback for the view
-
-Returns **any** this Context of the view
-
-### remove
-
-Remove the view and all binds
+-   [View](#view)
+    -   [Parameters](#parameters-10)
+    -   [render](#render-1)
+    -   [remove](#remove-1)
 
 ## AbstractView
 
@@ -225,3 +205,23 @@ Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/
 Callback to return if this view can display
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** Returns true if this view can display
+
+## View
+
+**Extends AbstractView**
+
+View - the base view for handlng display in the MV\* Concept
+
+### Parameters
+
+-   `options`  
+
+### render
+
+Render callback for the view
+
+Returns **any** this Context of the view
+
+### remove
+
+Remove the view and all binds
